@@ -35,4 +35,7 @@ Atualizado em 03/07/2023 - 22:24h
 * Tela de Cadastro - Validação dos campos conforme definido na classe da entidade
 * Tela de Cadastro - Incluido informação em destaque ao parar o mouse sobre o campo, optei não usar o placeholder
 
+## ATUALIZAÇÃO 16/072023
+* Corrigido o bug no nome da pessoa, não estava aceitando carcteres acentuados e cedilha
+* Laytou com a cor azul por padrão
   
