@@ -1,0 +1,182 @@
+﻿@page "/cadastrarPessoa"
+@page "/cadastrarPessoa/{id:int}"
+@page "/cadastrarPessoa/{id:int}/{acao:int}"
+@using SisControl.Client.Services;
+@using SisControl.Shared
+@inject IServicoPessoas ServicoPessoas
+@using System.ComponentModel.DataAnnotations
+@using System;
+
+<div >
+    @if (Id == null)
+    {
+        <PageTitle>Cadastrar Pessoa</PageTitle>
+        <h3>Cadastrar Pessoa</h3>
+    }
+    else
+    {
+        <PageTitle>Edição de @pessoa.Nome</PageTitle>
+        <h3>Edição de @pessoa.Nome</h3>
+    }
+</div>
+
+<div class="container-fluid m-0 p-0">
+    <div class="row min-vh-100 align-items-center">
+        @*Centraliza na vertical*@
+        <div class="col-12 d-flex justify-content-center">
+            @*Centraliza na horizontal*@
+            <EditForm Model="@pessoa" OnValidSubmit="HandleSubmit">
+                <div class="card w-auto text-start BordaRelevo" style="border-color:black; border-style:double;">
+                    <div class="card-header text-center mb-2" style="font-size:1.5rem">
+                        Cadastro de Pessoa
+                    </div>
+                    <div id="meuForm" class="card-body">
+                        <DataAnnotationsValidator />
+                        <div class="row"> @*style="border-top:solid 1px"  excluida para diminuir o tamanho do card *@
+                            <div class="col-12 d-flex flex-column">
+                                <label>Nome</label>
+                                <InputText id="nome" @bind-Value="pessoa.Nome" class="form-control" title="Nome completo, mínimo de 5 dígitos." />
+                                <ValidationMessage For="@(() => pessoa.Nome)" />
+                            </div>
+
+                            <div class="col-6 d-flex flex-column">
+                                <label>Data Nascimento</label>
+                                <InputDate id="dataNascimento" @bind-Value="pessoa.DataNascimento" class="form-control" title="Data no formato dd/mm/aaaa" />
+                                <ValidationMessage For="@(() => pessoa.DataNascimento)" />
+                            </div>
+                            <div class="col-6 d-flex flex-column">
+                                <label>CPF </label>
+                                <InputText id="cpf" @bind-Value="pessoa.Cpf" class="form-control" title="No formato 999.999.999-99" />
+                                <ValidationMessage For="@(() => pessoa.Cpf)" />
+                            </div>
+                            <div class="col-12 d-flex flex-column">
+                                <label>Email</label>
+                                <InputText id="email" @bind-Value="pessoa.Email" class="form-control" title="Email válido" />
+                                <ValidationMessage For="@(() => pessoa.Email)" />
+                            </div>
+                            <div class="col-6 d-flex flex-column">
+                                <label>Telefone</label>
+                                <InputText id="fone" @bind-Value="pessoa.Fone" class="form-control" title="No formato (99) 99999-9999" />
+                                <ValidationMessage For="@(() => pessoa.Fone)" />
+                            </div>
+                            <div class="col-6 d-flex flex-column">
+                                <label>CEP</label>
+                                <InputText id="cep" @bind-Value="pessoa.CEP" class="form-control" title="No formato 99999-999" />
+                                <ValidationMessage For="@(() => pessoa.CEP)" />
+                            </div>
+                            <div class="col-12 d-flex flex-column">
+                                <label>Endereço</label>
+                                <InputText id="endereco" @bind-Value="pessoa.Endereco" class="form-control" title="Nome da rua e número" />
+                                <ValidationMessage For="@(() => pessoa.Endereco)" />
+                            </div>
+                            <div class="col-12 d-flex flex-column">
+                                <label>Complemento</label>
+                                <InputText id="complemento" @bind-Value="pessoa.Complemento" class="form-control" title="Edifício, apto, casa, fundos" />
+                                <ValidationMessage For="@(() => pessoa.Complemento)" />
+                            </div>
+                            <div class="col-5 d-flex flex-column">
+                                <label>Bairro</label>
+                                <InputText id="bairro" @bind-Value="pessoa.Bairro" class="form-control" title="Nome do Bairro" />
+                                <ValidationMessage For="@(() => pessoa.Bairro)" />
+                            </div>
+                            <div class="col-5 d-flex flex-column">
+                                <label>Cidade</label>
+                                <InputText id="bairro" @bind-Value="pessoa.Cidade" class="form-control" title="Nome da Cidade" />
+                                <ValidationMessage For="@(() => pessoa.Cidade)" />
+                            </div>
+                            <div class="col-2 d-flex flex-column">
+                                <label>UF</label>
+                                <InputText id="uf" @bind-Value="pessoa.UF" class="form-control" title="Unidade Federativa, duas letras maiúsculas" />
+                                <ValidationMessage For="@(() => pessoa.UF)" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-footer text-center text-muted rounded">
+                        <div class="row">
+                            <div class="col-8 p-2">
+                                @if (Acao == null)
+                                {
+                                    <button type="submit" class="btn btn-primary">@btnText</button>
+                                }
+                                @if (Id != null && Acao != null)
+                                {
+                                    <button type="button" class="btn btn-danger" @onclick="ExcluirPessoa">Excluir Pessoa</button>
+                                }
+                            </div>
+
+                            <div class="col-4 p-2">
+                                <a class="btn btn-danger" style="background-color:orange" @onclick="@CancelarAcao">Cancelar</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+<br />
+
+<style>
+    .BordaRelevo {
+        max-width: 40rem;
+        padding: 34px;
+        box-shadow: 5px 10px 18px #001432;
+        border-radius: 9px;
+        /*background-color: gainsboro;*/
+        background-color: #d7d7d7;
+    }
+
+    #meuForm {
+        font-size: 1rem;
+        margin-bottom: 0;
+        margin-top: 1rem;
+        color: #001432;
+    }
+
+</style>
+
+@code
+{
+    [Parameter]
+    public int? Acao { get; set; }
+    [Parameter]
+    public int? Id { get; set; }
+    string btnText => Id == null ? "Salvar Inclusão" : "Salvar Alterações";
+    private EntidadePessoa pessoa = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Id != null)
+            await ServicoPessoas.BuscaPessoa((int)Id);
+        else
+            pessoa = new EntidadePessoa();
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (Id != null)
+            pessoa = await ServicoPessoas.BuscaPessoa((int)Id);
+    }
+
+    async Task HandleSubmit()
+    {
+        if (Id == null)
+            await ServicoPessoas.CadastraPessoa(pessoa);
+        else
+            await ServicoPessoas.GravaPessoa(pessoa);
+    }
+
+    async Task ExcluirPessoa()
+    {
+        if (Id != null)
+            await ServicoPessoas.DeletarPessoa(pessoa.Id);
+    }
+
+    async Task CancelarAcao()
+    {
+        await ServicoPessoas.CancelarAcao();
+    }
+}

@@ -1,0 +1,109 @@
+﻿@page "/consultarpessoas"
+
+@using SisControl.Client.Services;
+@using SisControl.Shared
+@inject IServicoPessoas ServicoPessoas
+@inject NavigationManager NavigationManager
+
+<PageTitle> Consultando pessoas </PageTitle>
+<h3>Consultando Pessoas</h3>
+
+<style>
+    .table-striped> thead{
+        font-size:16px;
+        color: #001432;
+        text-align: center;
+        margin-bottom:0;
+        margin-top:22px;
+        border-inline-color : #001432;
+        border-block-color: #001432;
+    }
+
+    .table-striped> tbody{
+        color: #001432;
+        border-inline-color : #001432;
+        border-block-color: #001432;
+        font-size: 16px;
+    }
+
+
+    /*.table-striped > tbody > tr > td.selectedRow:nth-child(odd) {
+        background-color: #095095;
+        color: #f0f0f0;
+        font-size: 16px;
+        margin-bottom: 0;
+        margin-top: 22px
+    }
+
+    .table-striped > tbody > tr > td.selectedRow:nth-child(even) {
+        background-color: #003333;
+        color: #f0f0f0;
+        font-size: 16px;
+        margin-bottom: 0;
+        margin-top: 22px
+    }*/
+
+    /*.table-striped > tbody > tr.selectedRow:nth-child(odd) > td {
+        background-color: #095095;
+        color: #003333;
+        font-size: 16px;
+        margin-bottom: 0;
+        margin-top: 22px
+    }
+
+    .table-striped > tbody > tr.selectedRow:nth-child(even) > td {
+        background-color: #003333;
+        color: #095095;
+        font-size: 16px;
+        margin-bottom: 0;
+        margin-top: 22px
+    }*/
+
+</style>
+
+<table class="table table-striped table-hover table-bordered">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Data Nascimento</th>
+            <th>Email</th>
+            <th>Fone</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var lpessoa in ServicoPessoas.ListaPessoas)
+        {
+            <tr>
+                <td>@lpessoa.Nome</td>
+                <td>@lpessoa.DataNascimento</td>
+                <td>@lpessoa.Email</td>
+                <td>@lpessoa.Fone</td>
+                <td>
+                    <button class="btn btn-primary" title="Editar" @onclick="(() => MostrarPessoa(lpessoa.Id))">
+                        <i class="oi oi-pencil"></i>
+                    </button>
+                    <button class="btn btn-danger" title="Deletar" @onclick="(() => MostrarPessoaADeletar(lpessoa.Id,3))">
+                        <i class="oi oi-trash"></i>
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await ServicoPessoas.BuscarTodasPessoas();
+    }
+    void MostrarPessoa(int id)
+    {
+        NavigationManager.NavigateTo($"/CadastrarPessoa/{id}");
+    }
+
+    void MostrarPessoaADeletar(int id, int action)
+    {
+        NavigationManager.NavigateTo($"/CadastrarPessoa/{id}/{action}");
+    }
+}

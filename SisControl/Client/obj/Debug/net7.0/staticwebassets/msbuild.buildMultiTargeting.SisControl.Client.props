@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SisControl.Client.props" />
+</Project>
