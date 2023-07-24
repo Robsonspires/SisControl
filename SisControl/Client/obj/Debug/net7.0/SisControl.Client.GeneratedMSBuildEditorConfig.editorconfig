@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = SisControl.Client
 build_property.RootNamespace = SisControl.Client
-build_property.ProjectDir = D:\Usr\Projetos Blazor\SisControl\SisControl\Client\
+build_property.ProjectDir = C:\Usr\SisControl\SisControl\Client\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Usr\Projetos Blazor\SisControl\SisControl\Client
+build_property.MSBuildProjectDirectory = C:\Usr\SisControl\SisControl\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Usr/Projetos Blazor/SisControl/SisControl/Client/App.razor]
+[C:/Usr/SisControl/SisControl/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usr/Projetos Blazor/SisControl/SisControl/Client/Pages/CadastrarPessoa.razor]
+[C:/Usr/SisControl/SisControl/Client/Pages/CadastrarPessoa.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkYXN0cmFyUGVzc29hLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usr/Projetos Blazor/SisControl/SisControl/Client/Pages/ConsultarLancamentos.razor]
+[C:/Usr/SisControl/SisControl/Client/Pages/ConsultarLancamentos.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFyTGFuY2FtZW50b3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usr/Projetos Blazor/SisControl/SisControl/Client/Pages/ConsultarPessoas.razor]
+[C:/Usr/SisControl/SisControl/Client/Pages/ConsultarPessoas.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFyUGVzc29hcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usr/Projetos Blazor/SisControl/SisControl/Client/Pages/Index.razor]
+[C:/Usr/SisControl/SisControl/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usr/Projetos Blazor/SisControl/SisControl/Client/Shared/SurveyPrompt.razor]
+[C:/Usr/SisControl/SisControl/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usr/Projetos Blazor/SisControl/SisControl/Client/_Imports.razor]
+[C:/Usr/SisControl/SisControl/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usr/Projetos Blazor/SisControl/SisControl/Client/Shared/MainLayout.razor]
+[C:/Usr/SisControl/SisControl/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-eg0jmxglmn
 
-[D:/Usr/Projetos Blazor/SisControl/SisControl/Client/Shared/NavMenu.razor]
+[C:/Usr/SisControl/SisControl/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-sk6fjifxc7

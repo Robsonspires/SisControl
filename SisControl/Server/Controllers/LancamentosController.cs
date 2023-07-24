@@ -13,7 +13,6 @@ namespace SisControl.Server.Controllers
         private EntidadePessoa pNome = new EntidadePessoa();
         private EntidadeComunidade cNome = new EntidadeComunidade();
 
-
         public LancamentosController(DataContexto contexto)
         {
             _contexto = contexto;
@@ -22,8 +21,10 @@ namespace SisControl.Server.Controllers
         [HttpGet]
         public async Task<ActionResult<List<EntidadeLancamento>>> BuscarTodosLancamentos()
         {
-            // EXEMPLO 01 - select
-            var lancamentos = _contexto.EntidadeLancamento.Select(el => new {
+            // EXEMPLO 01 - select 
+
+            var lancamentos = _contexto.EntidadeLancamento.Select(el => new
+            {
                 el.Id,
                 el.ComunidadeId,
                 Comunidade = cNome.Nome,
@@ -31,7 +32,8 @@ namespace SisControl.Server.Controllers
                 Pessoa = pNome.Nome
             });
 
-            /* EXEMPLO 02 - com linq
+
+            /* EXEMPLO 02 - com linq 
             var lancamentos = from el in _contexto.EntidadeLancamento
                               join ec in _contexto.EntidadeComunidade on el.ComunidadeId equals ec.Id
                               join ep in _contexto.EntidadePessoa on el.PessoaId equals ep.Id
@@ -42,8 +44,8 @@ namespace SisControl.Server.Controllers
                                   Comunidade = ec.Nome,
                                   el.PessoaId,
                                   Pessoa = ep.Nome
-                              };
-            */
+                              }; */
+
             //var lancamentos = await _contexto.EntidadeLancamento.ToListAsync();
             return Ok(lancamentos);
         }

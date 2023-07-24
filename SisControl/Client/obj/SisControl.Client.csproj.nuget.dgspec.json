@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj": {}
+    "C:\\Usr\\SisControl\\SisControl\\Client\\SisControl.Client.csproj": {}
   },
   "projects": {
-    "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj": {
+    "C:\\Usr\\SisControl\\SisControl\\Client\\SisControl.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
+        "projectUniqueName": "C:\\Usr\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
         "projectName": "SisControl.Client",
-        "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
-        "packagesPath": "C:\\Users\\robso\\.nuget\\packages\\",
-        "outputPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\",
+        "projectPath": "C:\\Usr\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
+        "packagesPath": "C:\\Users\\Tpad\\.nuget\\packages\\",
+        "outputPath": "C:\\Usr\\SisControl\\SisControl\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\robso\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Tpad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
-                "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj"
+              "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
+                "projectPath": "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj"
               }
             }
           }
@@ -85,24 +83,22 @@
         }
       }
     },
-    "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
+    "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
+        "projectUniqueName": "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
         "projectName": "SisControl.Shared",
-        "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
-        "packagesPath": "C:\\Users\\robso\\.nuget\\packages\\",
-        "outputPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\obj\\",
+        "projectPath": "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
+        "packagesPath": "C:\\Users\\Tpad\\.nuget\\packages\\",
+        "outputPath": "c:\\Usr\\SisControl\\SisControl\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\robso\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Tpad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

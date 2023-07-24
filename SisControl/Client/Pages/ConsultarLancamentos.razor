@@ -9,19 +9,19 @@
 <h3>Consultando Lançamentos</h3>
 
 <style>
-    .table-striped> thead{
-        font-size:16px;
+    .table-striped>thead {
+        font-size: 16px;
         color: #001432;
         text-align: center;
-        margin-bottom:0;
-        margin-top:22px;
-        border-inline-color : #001432;
+        margin-bottom: 0;
+        margin-top: 22px;
+        border-inline-color: #001432;
         border-block-color: #001432;
     }
 
-    .table-striped> tbody{
+    .table-striped>tbody {
         color: #001432;
-        border-inline-color : #001432;
+        border-inline-color: #001432;
         border-block-color: #001432;
         font-size: 16px;
     }
@@ -42,35 +42,35 @@
         {
             <tr>
                 <td>@tlancamentos.PessoaId</td>
-                <td>@tlancamentos.ComunidadeId</td>
+                <td>@tlancamentos.ComunidadeId </td>
                 <td>@tlancamentos.Ano</td>
                 <td>@tlancamentos.Jan</td>
                 <td>
                     @*<button class="btn btn-primary" title="Editar" @onclick="(() => MostrarLancamento(tlancamentos.Id))">
-                        <i class="oi oi-pencil"></i>
-                    </button>
-                    <button class="btn btn-danger" title="Deletar" @onclick="(() => MostrarLancamentoADeletar(tlancamentos.Id,3))">
-                        <i class="oi oi-trash"></i>
-                    </button>*@
+                <i class="oi oi-pencil"></i>
+                </button>
+                <button class="btn btn-danger" title="Deletar" @onclick="(() =>
+                MostrarLancamentoADeletar(tlancamentos.Id,3))">
+                <i class="oi oi-trash"></i>
+                </button>*@
                 </td>
             </tr>
         }
     </tbody>
 </table>
 
-
 @code {
-    //protected override async Task OnInitializedAsync()
-    //{
-    //    await ServicoLancamentos.BuscarTodosLancamentos();
-    //}
+    protected override async Task OnInitializedAsync()
+    {
+        await ServicoLancamentos.BuscarTodosLancamentos();
+    }
     //void MostrarLancamento(int id)
     //{
-    //    NavigationManager.NavigateTo($"/CadastrarPessoa/{id}");
+    // NavigationManager.NavigateTo($"/CadastrarPessoa/{id}");
     //}
 
     //void MostrarLancamentoADeletar(int id, int action)
     //{
-    //    NavigationManager.NavigateTo($"/CadastrarPessoa/{id}/{action}");
+    // NavigationManager.NavigateTo($"/CadastrarPessoa/{id}/{action}");
     //}
 }
