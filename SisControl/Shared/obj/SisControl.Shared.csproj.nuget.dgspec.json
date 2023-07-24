@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {}
+    "C:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {}
   },
   "projects": {
-    "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
+    "C:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
+        "projectUniqueName": "C:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
         "projectName": "SisControl.Shared",
-        "projectPath": "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
+        "projectPath": "C:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
         "packagesPath": "C:\\Users\\Tpad\\.nuget\\packages\\",
-        "outputPath": "c:\\Usr\\SisControl\\SisControl\\Shared\\obj\\",
+        "outputPath": "C:\\Usr\\SisControl\\SisControl\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tpad\\AppData\\Roaming\\NuGet\\NuGet.Config"

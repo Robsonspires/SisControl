@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Usr\\SisControl\\SisControl\\Client\\SisControl.Client.csproj": {}
+    "c:\\Usr\\SisControl\\SisControl\\Client\\SisControl.Client.csproj": {}
   },
   "projects": {
-    "C:\\Usr\\SisControl\\SisControl\\Client\\SisControl.Client.csproj": {
+    "c:\\Usr\\SisControl\\SisControl\\Client\\SisControl.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Usr\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
+        "projectUniqueName": "c:\\Usr\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
         "projectName": "SisControl.Client",
-        "projectPath": "C:\\Usr\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
+        "projectPath": "c:\\Usr\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
         "packagesPath": "C:\\Users\\Tpad\\.nuget\\packages\\",
-        "outputPath": "C:\\Usr\\SisControl\\SisControl\\Client\\obj\\",
+        "outputPath": "c:\\Usr\\SisControl\\SisControl\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tpad\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
-                "projectPath": "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj"
+              "C:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
+                "projectPath": "C:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
+    "C:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
+        "projectUniqueName": "C:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
         "projectName": "SisControl.Shared",
-        "projectPath": "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
+        "projectPath": "C:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
         "packagesPath": "C:\\Users\\Tpad\\.nuget\\packages\\",
-        "outputPath": "c:\\Usr\\SisControl\\SisControl\\Shared\\obj\\",
+        "outputPath": "C:\\Usr\\SisControl\\SisControl\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tpad\\AppData\\Roaming\\NuGet\\NuGet.Config"

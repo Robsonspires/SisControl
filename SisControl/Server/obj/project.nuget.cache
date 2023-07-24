@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0UgOeyiy7MyYRqgXJ/3p+NUwnCP/1AlOpHWBSNHkFho6EcXEuBtWMFwqPkO2E++EW2ccg2g6Egpb4NPL4WuvHg==",
+  "dgSpecHash": "v2WW1ljyy6C/1kk8VqNnQ7PZ7YozcuH+EaDxWr96F/AWqwp54uIibrvp+ELxXy2wAYSzVUCw/v6266s8Oe1I2w==",
   "success": true,
-  "projectFilePath": "C:\\Usr\\SisControl\\SisControl\\Server\\SisControl.Server.csproj",
+  "projectFilePath": "c:\\Usr\\SisControl\\SisControl\\Server\\SisControl.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tpad\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Tpad\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

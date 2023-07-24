@@ -1851,8 +1851,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
-              "projectPath": "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj"
+            "C:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
+              "projectPath": "C:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj"
             }
           }
         }

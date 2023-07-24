@@ -2484,10 +2484,6 @@ C:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\build-gz\XuADhGZJ.gz
 C:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\build-gz\cfee07VH.gz
 C:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\build-gz\FURU9EiT.gz
 C:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\build-gz\8ncamF+e.gz
-C:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\build-gz\HYuRWe1z.gz
-C:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\build-gz\bm0ffs0b.gz
-C:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\build-gz\7J1CR61S.gz
-C:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\build-gz\Or0bBx+b.gz
 C:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\build-gz\SIFuWyO2.gz
 C:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\blazor.boot.json
 C:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\staticwebassets\msbuild.SisControl.Client.Microsoft.AspNetCore.StaticWebAssets.props
@@ -2506,3 +2502,7 @@ C:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\SisControl.Client.dll
 C:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\refint\SisControl.Client.dll
 C:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\SisControl.Client.pdb
 c:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\ref\SisControl.Client.dll
+c:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\build-gz\DeoYAblp.gz
+c:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\build-gz\B1+VrC9D.gz
+c:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\build-gz\G8OZPP9I.gz
+c:\Usr\SisControl\SisControl\Client\obj\Debug\net7.0\build-gz\bkb+7CSK.gz

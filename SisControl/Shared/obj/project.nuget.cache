@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yCiIjs18l66nC2J6EnJcUZreZvTsYBJobTZKKANW4YmmGPPXXoxDMPP3iwuxz77H6K/AWiE1Uxowf18gXbB8RA==",
+  "dgSpecHash": "myYxPzDlwhqywPtfU76XFlt8pR3wrZt433B4HdIvHy57IsPpW1fqgMrgx1s/F883rCge2L3h6DAD8WT3iTpb7A==",
   "success": true,
-  "projectFilePath": "c:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
+  "projectFilePath": "C:\\Usr\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
