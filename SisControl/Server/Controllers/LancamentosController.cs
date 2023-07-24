@@ -10,8 +10,8 @@ namespace SisControl.Server.Controllers
     public class LancamentosController : ControllerBase
     {
         private readonly DataContexto _contexto;
-        private EntidadePessoa pNome = new EntidadePessoa();
-        private EntidadeComunidade cNome = new EntidadeComunidade();
+        //private EntidadePessoa pPessoa = new EntidadePessoa();
+        //private EntidadeComunidade cNome = new EntidadeComunidade();
 
         public LancamentosController(DataContexto contexto)
         {
@@ -29,7 +29,9 @@ namespace SisControl.Server.Controllers
                 el.ComunidadeId,
                 Comunidade = cNome.Nome,
                 el.PessoaId,
-                Pessoa = pNome.Nome
+                Pessoa = pNome.Nome,
+                el.Ano,
+                el.Jan
             });
             */
 
@@ -43,7 +45,9 @@ namespace SisControl.Server.Controllers
                                   el.ComunidadeId,
                                   Comunidade = ec.Nome,
                                   el.PessoaId,
-                                  Pessoa = ep.Nome
+                                  Pessoa = ep.Nome,
+                                  el.Ano,
+                                  el.Jan
                               }; 
 
             //var lancamentos = await _contexto.EntidadeLancamento.ToListAsync();

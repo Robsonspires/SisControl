@@ -9,7 +9,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 927129674,
+        "HashCode": 987738359,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.Pages.ConsultarLancamentos",
         "AssemblyName": "SisControl.Client",
@@ -27,7 +27,7 @@
         }
       },
       {
-        "HashCode": 1093118712,
+        "HashCode": 1690694455,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.Pages.ConsultarLancamentos",
         "AssemblyName": "SisControl.Client",
@@ -46,7 +46,7 @@
         }
       },
       {
-        "HashCode": 1881567335,
+        "HashCode": 1600225636,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.Pages.Index",
         "AssemblyName": "SisControl.Client",
@@ -64,7 +64,7 @@
         }
       },
       {
-        "HashCode": -128244566,
+        "HashCode": -1912876952,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.Pages.Index",
         "AssemblyName": "SisControl.Client",
@@ -83,7 +83,7 @@
         }
       },
       {
-        "HashCode": 1675557467,
+        "HashCode": 1877066695,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.Pages.CadastrarPessoa",
         "AssemblyName": "SisControl.Client",
@@ -121,7 +121,7 @@
         }
       },
       {
-        "HashCode": -1071543720,
+        "HashCode": -1684938940,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.Pages.CadastrarPessoa",
         "AssemblyName": "SisControl.Client",
@@ -160,7 +160,7 @@
         }
       },
       {
-        "HashCode": -588523476,
+        "HashCode": 1377967180,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.Pages.ConsultarPessoas",
         "AssemblyName": "SisControl.Client",
@@ -178,7 +178,7 @@
         }
       },
       {
-        "HashCode": -965431694,
+        "HashCode": -775548910,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.Pages.ConsultarPessoas",
         "AssemblyName": "SisControl.Client",
@@ -197,7 +197,7 @@
         }
       },
       {
-        "HashCode": -1118188650,
+        "HashCode": 991413206,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.App",
         "AssemblyName": "SisControl.Client",
@@ -215,7 +215,7 @@
         }
       },
       {
-        "HashCode": 780562235,
+        "HashCode": 247341058,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.App",
         "AssemblyName": "SisControl.Client",
@@ -234,7 +234,7 @@
         }
       },
       {
-        "HashCode": -2117996679,
+        "HashCode": 980225770,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.Shared.SurveyPrompt",
         "AssemblyName": "SisControl.Client",
@@ -263,7 +263,7 @@
         }
       },
       {
-        "HashCode": -1566256367,
+        "HashCode": 994949931,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.Shared.SurveyPrompt",
         "AssemblyName": "SisControl.Client",
@@ -293,7 +293,7 @@
         }
       },
       {
-        "HashCode": -1100760893,
+        "HashCode": -1173576712,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.Shared.NavMenu",
         "AssemblyName": "SisControl.Client",
@@ -311,7 +311,7 @@
         }
       },
       {
-        "HashCode": -1014624519,
+        "HashCode": 1867683578,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.Shared.NavMenu",
         "AssemblyName": "SisControl.Client",
@@ -330,7 +330,7 @@
         }
       },
       {
-        "HashCode": -1687789317,
+        "HashCode": 1428217918,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.Shared.MainLayout",
         "AssemblyName": "SisControl.Client",
@@ -361,7 +361,7 @@
         }
       },
       {
-        "HashCode": 1802200651,
+        "HashCode": 38829959,
         "Kind": "Components.Component",
         "Name": "SisControl.Client.Shared.MainLayout",
         "AssemblyName": "SisControl.Client",
@@ -393,7 +393,7 @@
         }
       },
       {
-        "HashCode": -1069974428,
+        "HashCode": 344657645,
         "Kind": "Components.ChildContent",
         "Name": "SisControl.Client.Shared.MainLayout.Body",
         "AssemblyName": "SisControl.Client",
@@ -414,7 +414,7 @@
         }
       },
       {
-        "HashCode": 632752763,
+        "HashCode": -341969480,
         "Kind": "Components.ChildContent",
         "Name": "SisControl.Client.Shared.MainLayout.Body",
         "AssemblyName": "SisControl.Client",
@@ -436,7 +436,869 @@
         }
       },
       {
-        "HashCode": -1222394759,
+        "HashCode": 749706989,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.CascadingValue`1\">\r\n            <summary>\r\n            A component that provides a cascading value to all descendant components.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CascadingValue"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "TValue",
+            "TypeName": "System.Type",
+            "Documentation": "Specifies the type of the type parameter TValue for the Microsoft.AspNetCore.Components.CascadingValue<TValue> component.",
+            "Metadata": {
+              "Common.PropertyName": "TValue",
+              "Components.TypeParameter": "True",
+              "Components.TypeParameterIsCascading": "False"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.ChildContent\">\r\n            <summary>\r\n            The content to which the value should be provided.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Value",
+            "TypeName": "TValue",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Value\">\r\n            <summary>\r\n            The value to be provided.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Value",
+              "Common.GloballyQualifiedTypeName": "TValue",
+              "Components.GenericTyped": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Name",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Name\">\r\n             <summary>\r\n             Optionally gives a name to the provided value. Descendant components\r\n             will be able to receive the value by specifying this name.\r\n            \r\n             If no name is specified, then descendant components will receive the\r\n             value based the type of value they are requesting.\r\n             </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Name",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsFixed",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.IsFixed\">\r\n            <summary>\r\n            If true, indicates that <see cref=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Value\" /> will not change. This is a\r\n            performance optimization that allows the framework to skip setting up\r\n            change notifications. Set this flag only if you will not change\r\n            <see cref=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Value\" /> during the component's lifetime.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "IsFixed",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
+          "Common.TypeNameIdentifier": "CascadingValue",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
+          "Components.GenericTyped": "True",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1122034695,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.CascadingValue`1\">\r\n            <summary>\r\n            A component that provides a cascading value to all descendant components.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.CascadingValue"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "TValue",
+            "TypeName": "System.Type",
+            "Documentation": "Specifies the type of the type parameter TValue for the Microsoft.AspNetCore.Components.CascadingValue<TValue> component.",
+            "Metadata": {
+              "Common.PropertyName": "TValue",
+              "Components.TypeParameter": "True",
+              "Components.TypeParameterIsCascading": "False"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.ChildContent\">\r\n            <summary>\r\n            The content to which the value should be provided.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Value",
+            "TypeName": "TValue",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Value\">\r\n            <summary>\r\n            The value to be provided.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Value",
+              "Common.GloballyQualifiedTypeName": "TValue",
+              "Components.GenericTyped": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Name",
+            "TypeName": "System.String",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Name\">\r\n             <summary>\r\n             Optionally gives a name to the provided value. Descendant components\r\n             will be able to receive the value by specifying this name.\r\n            \r\n             If no name is specified, then descendant components will receive the\r\n             value based the type of value they are requesting.\r\n             </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Name",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsFixed",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.IsFixed\">\r\n            <summary>\r\n            If true, indicates that <see cref=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Value\" /> will not change. This is a\r\n            performance optimization that allows the framework to skip setting up\r\n            change notifications. Set this flag only if you will not change\r\n            <see cref=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Value\" /> during the component's lifetime.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "IsFixed",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
+          "Common.TypeNameIdentifier": "CascadingValue",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
+          "Components.GenericTyped": "True",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1009396323,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.ChildContent\">\r\n            <summary>\r\n            The content to which the value should be provided.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "CascadingValue"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
+          "Common.TypeNameIdentifier": "CascadingValue",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -1410070499,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.ChildContent\">\r\n            <summary>\r\n            The content to which the value should be provided.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "Microsoft.AspNetCore.Components.CascadingValue"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
+          "Common.TypeNameIdentifier": "CascadingValue",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 246839741,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.DynamicComponent\">\r\n            <summary>\r\n            A component that renders another component dynamically according to its\r\n            <see cref=\"P:Microsoft.AspNetCore.Components.DynamicComponent.Type\" /> parameter.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DynamicComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Type",
+            "TypeName": "System.Type",
+            "IsEditorRequired": true,
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.DynamicComponent.Type\">\r\n            <summary>\r\n            Gets or sets the type of the component to be rendered. The supplied type must\r\n            implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" />.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Type",
+              "Common.GloballyQualifiedTypeName": "global::System.Type"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Parameters",
+            "TypeName": "System.Collections.Generic.IDictionary<System.String, System.Object>",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.DynamicComponent.Parameters\">\r\n            <summary>\r\n            Gets or sets a dictionary of parameters to be passed to the component.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Parameters",
+              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.DynamicComponent",
+          "Common.TypeNameIdentifier": "DynamicComponent",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -779403386,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.DynamicComponent\">\r\n            <summary>\r\n            A component that renders another component dynamically according to its\r\n            <see cref=\"P:Microsoft.AspNetCore.Components.DynamicComponent.Type\" /> parameter.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.DynamicComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Type",
+            "TypeName": "System.Type",
+            "IsEditorRequired": true,
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.DynamicComponent.Type\">\r\n            <summary>\r\n            Gets or sets the type of the component to be rendered. The supplied type must\r\n            implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" />.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Type",
+              "Common.GloballyQualifiedTypeName": "global::System.Type"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Parameters",
+            "TypeName": "System.Collections.Generic.IDictionary<System.String, System.Object>",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.DynamicComponent.Parameters\">\r\n            <summary>\r\n            Gets or sets a dictionary of parameters to be passed to the component.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Parameters",
+              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.DynamicComponent",
+          "Common.TypeNameIdentifier": "DynamicComponent",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 467056557,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.LayoutView",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.LayoutView\">\r\n            <summary>\r\n            Displays the specified content inside the specified layout and any further\r\n            nested layouts.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LayoutView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutView.ChildContent\">\r\n            <summary>\r\n            Gets or sets the content to display.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Layout",
+            "TypeName": "System.Type",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutView.Layout\">\r\n            <summary>\r\n            Gets or sets the type of the layout in which to display the content.\r\n            The type must implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" /> and accept a parameter named <see cref=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\" />.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Layout",
+              "Common.GloballyQualifiedTypeName": "global::System.Type"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.LayoutView",
+          "Common.TypeNameIdentifier": "LayoutView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -992636232,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.LayoutView",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.LayoutView\">\r\n            <summary>\r\n            Displays the specified content inside the specified layout and any further\r\n            nested layouts.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.LayoutView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutView.ChildContent\">\r\n            <summary>\r\n            Gets or sets the content to display.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Layout",
+            "TypeName": "System.Type",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutView.Layout\">\r\n            <summary>\r\n            Gets or sets the type of the layout in which to display the content.\r\n            The type must implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" /> and accept a parameter named <see cref=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\" />.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Layout",
+              "Common.GloballyQualifiedTypeName": "global::System.Type"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.LayoutView",
+          "Common.TypeNameIdentifier": "LayoutView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -200948393,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutView.ChildContent\">\r\n            <summary>\r\n            Gets or sets the content to display.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "LayoutView"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
+          "Common.TypeNameIdentifier": "LayoutView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -2099848567,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutView.ChildContent\">\r\n            <summary>\r\n            Gets or sets the content to display.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "Microsoft.AspNetCore.Components.LayoutView"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
+          "Common.TypeNameIdentifier": "LayoutView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -1286398708,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.RouteView",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.RouteView\">\r\n            <summary>\r\n            Displays the specified page component, rendering it inside its layout\r\n            and any further nested layouts.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "RouteView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "RouteData",
+            "TypeName": "Microsoft.AspNetCore.Components.RouteData",
+            "IsEditorRequired": true,
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.RouteData\">\r\n            <summary>\r\n            Gets or sets the route data. This determines the page that will be\r\n            displayed and the parameter values that will be supplied to the page.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "RouteData",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RouteData"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DefaultLayout",
+            "TypeName": "System.Type",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.DefaultLayout\">\r\n            <summary>\r\n            Gets or sets the type of a layout to be used if the page does not\r\n            declare any layout. If specified, the type must implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" />\r\n            and accept a parameter named <see cref=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\" />.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "DefaultLayout",
+              "Common.GloballyQualifiedTypeName": "global::System.Type"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.RouteView",
+          "Common.TypeNameIdentifier": "RouteView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1000337761,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.RouteView",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.RouteView\">\r\n            <summary>\r\n            Displays the specified page component, rendering it inside its layout\r\n            and any further nested layouts.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.RouteView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "RouteData",
+            "TypeName": "Microsoft.AspNetCore.Components.RouteData",
+            "IsEditorRequired": true,
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.RouteData\">\r\n            <summary>\r\n            Gets or sets the route data. This determines the page that will be\r\n            displayed and the parameter values that will be supplied to the page.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "RouteData",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RouteData"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DefaultLayout",
+            "TypeName": "System.Type",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.DefaultLayout\">\r\n            <summary>\r\n            Gets or sets the type of a layout to be used if the page does not\r\n            declare any layout. If specified, the type must implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" />\r\n            and accept a parameter named <see cref=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\" />.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "DefaultLayout",
+              "Common.GloballyQualifiedTypeName": "global::System.Type"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.RouteView",
+          "Common.TypeNameIdentifier": "RouteView",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 2014314588,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.Routing.Router",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.Routing.Router\">\r\n            <summary>\r\n            A component that supplies route data corresponding to the current navigation state.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Router"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "AppAssembly",
+            "TypeName": "System.Reflection.Assembly",
+            "IsEditorRequired": true,
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.AppAssembly\">\r\n            <summary>\r\n            Gets or sets the assembly that should be searched for components matching the URI.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "AppAssembly",
+              "Common.GloballyQualifiedTypeName": "global::System.Reflection.Assembly"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AdditionalAssemblies",
+            "TypeName": "System.Collections.Generic.IEnumerable<System.Reflection.Assembly>",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.AdditionalAssemblies\">\r\n            <summary>\r\n            Gets or sets a collection of additional assemblies that should be searched for components\r\n            that can match URIs.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "AdditionalAssemblies",
+              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.IEnumerable<global::System.Reflection.Assembly>"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "NotFound",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "IsEditorRequired": true,
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.NotFound\">\r\n            <summary>\r\n            Gets or sets the content to display when no match is found for the requested route.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "NotFound",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Found",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.RouteData>",
+            "IsEditorRequired": true,
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Found\">\r\n            <summary>\r\n            Gets or sets the content to display when a match is found for the requested route.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Found",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.RouteData>",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Navigating",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Navigating\">\r\n            <summary>\r\n            Get or sets the content to display when asynchronous navigation is in progress.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Navigating",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnNavigateAsync",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Routing.NavigationContext>",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.OnNavigateAsync\">\r\n            <summary>\r\n            Gets or sets a handler that should be called before navigating to a new page.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "OnNavigateAsync",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Routing.NavigationContext>",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "PreferExactMatches",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.PreferExactMatches\">\r\n            <summary>\r\n            Gets or sets a flag to indicate whether route matching should prefer exact matches\r\n            over wildcards.\r\n            <para>This property is obsolete and configuring it does nothing.</para>\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "PreferExactMatches",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "Documentation": "Specifies the parameter name for all child content expressions.",
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router",
+          "Common.TypeNameIdentifier": "Router",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 184480873,
+        "Kind": "Components.Component",
+        "Name": "Microsoft.AspNetCore.Components.Routing.Router",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.Routing.Router\">\r\n            <summary>\r\n            A component that supplies route data corresponding to the current navigation state.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Microsoft.AspNetCore.Components.Routing.Router"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "AppAssembly",
+            "TypeName": "System.Reflection.Assembly",
+            "IsEditorRequired": true,
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.AppAssembly\">\r\n            <summary>\r\n            Gets or sets the assembly that should be searched for components matching the URI.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "AppAssembly",
+              "Common.GloballyQualifiedTypeName": "global::System.Reflection.Assembly"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AdditionalAssemblies",
+            "TypeName": "System.Collections.Generic.IEnumerable<System.Reflection.Assembly>",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.AdditionalAssemblies\">\r\n            <summary>\r\n            Gets or sets a collection of additional assemblies that should be searched for components\r\n            that can match URIs.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "AdditionalAssemblies",
+              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.IEnumerable<global::System.Reflection.Assembly>"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "NotFound",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "IsEditorRequired": true,
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.NotFound\">\r\n            <summary>\r\n            Gets or sets the content to display when no match is found for the requested route.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "NotFound",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Found",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.RouteData>",
+            "IsEditorRequired": true,
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Found\">\r\n            <summary>\r\n            Gets or sets the content to display when a match is found for the requested route.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Found",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.RouteData>",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Navigating",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Navigating\">\r\n            <summary>\r\n            Get or sets the content to display when asynchronous navigation is in progress.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "Navigating",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnNavigateAsync",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Routing.NavigationContext>",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.OnNavigateAsync\">\r\n            <summary>\r\n            Gets or sets a handler that should be called before navigating to a new page.\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "OnNavigateAsync",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Routing.NavigationContext>",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "PreferExactMatches",
+            "TypeName": "System.Boolean",
+            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.PreferExactMatches\">\r\n            <summary>\r\n            Gets or sets a flag to indicate whether route matching should prefer exact matches\r\n            over wildcards.\r\n            <para>This property is obsolete and configuring it does nothing.</para>\r\n            </summary>\r\n        </member>",
+            "Metadata": {
+              "Common.PropertyName": "PreferExactMatches",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "Documentation": "Specifies the parameter name for all child content expressions.",
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router",
+          "Common.TypeNameIdentifier": "Router",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 365330693,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.NotFound\">\r\n            <summary>\r\n            Gets or sets the content to display when no match is found for the requested route.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NotFound",
+            "ParentTag": "Router"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
+          "Common.TypeNameIdentifier": "Router",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 805884848,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.NotFound\">\r\n            <summary>\r\n            Gets or sets the content to display when no match is found for the requested route.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NotFound",
+            "ParentTag": "Microsoft.AspNetCore.Components.Routing.Router"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
+          "Common.TypeNameIdentifier": "Router",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -577688221,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Found\">\r\n            <summary>\r\n            Gets or sets the content to display when a match is found for the requested route.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Found",
+            "ParentTag": "Router"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "Documentation": "Specifies the parameter name for the 'Found' child content expression.",
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router.Found",
+          "Common.TypeNameIdentifier": "Router",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -2097602197,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Found\">\r\n            <summary>\r\n            Gets or sets the content to display when a match is found for the requested route.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Found",
+            "ParentTag": "Microsoft.AspNetCore.Components.Routing.Router"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "Documentation": "Specifies the parameter name for the 'Found' child content expression.",
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router.Found",
+          "Common.TypeNameIdentifier": "Router",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 987251972,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Navigating\">\r\n            <summary>\r\n            Get or sets the content to display when asynchronous navigation is in progress.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Navigating",
+            "ParentTag": "Router"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
+          "Common.TypeNameIdentifier": "Router",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -2068952120,
+        "Kind": "Components.ChildContent",
+        "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
+        "AssemblyName": "Microsoft.AspNetCore.Components",
+        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Navigating\">\r\n            <summary>\r\n            Get or sets the content to display when asynchronous navigation is in progress.\r\n            </summary>\r\n        </member>",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Navigating",
+            "ParentTag": "Microsoft.AspNetCore.Components.Routing.Router"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
+          "Common.TypeNameIdentifier": "Router",
+          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": -1160066051,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -455,7 +1317,7 @@
         }
       },
       {
-        "HashCode": -754072122,
+        "HashCode": -427066861,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator",
         "AssemblyName": "Microsoft.AspNetCore.Components.Forms",
@@ -475,7 +1337,7 @@
         }
       },
       {
-        "HashCode": 20725833,
+        "HashCode": -1301532006,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -580,7 +1442,7 @@
         }
       },
       {
-        "HashCode": -2143987561,
+        "HashCode": 1955396419,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -686,7 +1548,7 @@
         }
       },
       {
-        "HashCode": 1493439263,
+        "HashCode": -768897163,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -719,7 +1581,7 @@
         }
       },
       {
-        "HashCode": 544960483,
+        "HashCode": -730306172,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.EditForm.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -753,7 +1615,7 @@
         }
       },
       {
-        "HashCode": 1942088838,
+        "HashCode": 1312971885,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -825,7 +1687,7 @@
         }
       },
       {
-        "HashCode": -2077941511,
+        "HashCode": -1054122127,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -898,7 +1760,7 @@
         }
       },
       {
-        "HashCode": -1258637262,
+        "HashCode": -1849992066,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1006,7 +1868,7 @@
         }
       },
       {
-        "HashCode": -968575116,
+        "HashCode": -1038056530,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1115,7 +1977,7 @@
         }
       },
       {
-        "HashCode": -1120867142,
+        "HashCode": -1610585714,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1157,7 +2019,7 @@
         }
       },
       {
-        "HashCode": -915738903,
+        "HashCode": -1978583746,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputFile",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1200,7 +2062,7 @@
         }
       },
       {
-        "HashCode": 86892487,
+        "HashCode": 1377536640,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1297,7 +2159,7 @@
         }
       },
       {
-        "HashCode": -1653440022,
+        "HashCode": 579058100,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1395,7 +2257,7 @@
         }
       },
       {
-        "HashCode": 2050334101,
+        "HashCode": -584754158,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1459,7 +2321,7 @@
         }
       },
       {
-        "HashCode": -927001063,
+        "HashCode": 1515156746,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadio<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1524,7 +2386,7 @@
         }
       },
       {
-        "HashCode": 360435498,
+        "HashCode": -150281303,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1632,7 +2494,7 @@
         }
       },
       {
-        "HashCode": -1566587921,
+        "HashCode": 1356183485,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1741,7 +2603,7 @@
         }
       },
       {
-        "HashCode": -1627110694,
+        "HashCode": -1411834259,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1762,7 +2624,7 @@
         }
       },
       {
-        "HashCode": 88684005,
+        "HashCode": -2074389317,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1784,7 +2646,7 @@
         }
       },
       {
-        "HashCode": 1609444207,
+        "HashCode": 549264775,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1882,7 +2744,7 @@
         }
       },
       {
-        "HashCode": 361625486,
+        "HashCode": -487396685,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -1981,7 +2843,7 @@
         }
       },
       {
-        "HashCode": -898421733,
+        "HashCode": -1397681485,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2002,7 +2864,7 @@
         }
       },
       {
-        "HashCode": 1388313573,
+        "HashCode": 104292929,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2024,7 +2886,7 @@
         }
       },
       {
-        "HashCode": 479837429,
+        "HashCode": 930721047,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2096,7 +2958,7 @@
         }
       },
       {
-        "HashCode": 1532249177,
+        "HashCode": 1830599613,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2169,7 +3031,7 @@
         }
       },
       {
-        "HashCode": 2036774246,
+        "HashCode": -155660054,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2241,7 +3103,7 @@
         }
       },
       {
-        "HashCode": -360223364,
+        "HashCode": 1198113618,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2314,7 +3176,7 @@
         }
       },
       {
-        "HashCode": 1706785911,
+        "HashCode": -645019814,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2368,7 +3230,7 @@
         }
       },
       {
-        "HashCode": -1909715247,
+        "HashCode": 767140286,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2423,7 +3285,7 @@
         }
       },
       {
-        "HashCode": -1473325290,
+        "HashCode": 1344276076,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2464,7 +3326,7 @@
         }
       },
       {
-        "HashCode": 1661103707,
+        "HashCode": -759828028,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Forms.ValidationSummary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2506,7 +3368,7 @@
         }
       },
       {
-        "HashCode": 1615640190,
+        "HashCode": 1696360104,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2547,7 +3409,7 @@
         }
       },
       {
-        "HashCode": 1332716355,
+        "HashCode": 1976728800,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.FocusOnNavigate",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2589,7 +3451,7 @@
         }
       },
       {
-        "HashCode": 2068858458,
+        "HashCode": 701591955,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavigationLock",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2631,7 +3493,7 @@
         }
       },
       {
-        "HashCode": -426507506,
+        "HashCode": 2052398649,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavigationLock",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2674,7 +3536,7 @@
         }
       },
       {
-        "HashCode": 32309469,
+        "HashCode": 521446441,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2737,7 +3599,7 @@
         }
       },
       {
-        "HashCode": -448792178,
+        "HashCode": -1454116085,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2801,7 +3663,7 @@
         }
       },
       {
-        "HashCode": 1117221942,
+        "HashCode": 332857892,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2822,7 +3684,7 @@
         }
       },
       {
-        "HashCode": 1304022321,
+        "HashCode": 1275059481,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2844,7 +3706,7 @@
         }
       },
       {
-        "HashCode": -2127476664,
+        "HashCode": -988135922,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2876,7 +3738,7 @@
         }
       },
       {
-        "HashCode": -1948665691,
+        "HashCode": 940519531,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2909,7 +3771,7 @@
         }
       },
       {
-        "HashCode": -1307401123,
+        "HashCode": 1009180384,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2930,7 +3792,7 @@
         }
       },
       {
-        "HashCode": 1041381461,
+        "HashCode": -1674743668,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadContent.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2952,7 +3814,7 @@
         }
       },
       {
-        "HashCode": -2011659329,
+        "HashCode": 1216131737,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2971,7 +3833,7 @@
         }
       },
       {
-        "HashCode": 1466988658,
+        "HashCode": 229107649,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.HeadOutlet",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -2991,7 +3853,7 @@
         }
       },
       {
-        "HashCode": 1250622395,
+        "HashCode": 1180204289,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3023,7 +3885,7 @@
         }
       },
       {
-        "HashCode": -1515790074,
+        "HashCode": -1756304863,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3056,7 +3918,7 @@
         }
       },
       {
-        "HashCode": -1441759301,
+        "HashCode": 1465900887,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3077,7 +3939,7 @@
         }
       },
       {
-        "HashCode": 1948760446,
+        "HashCode": -577032460,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.PageTitle.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3099,7 +3961,7 @@
         }
       },
       {
-        "HashCode": 1400760839,
+        "HashCode": 419072982,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3162,7 +4024,7 @@
         }
       },
       {
-        "HashCode": 2062943060,
+        "HashCode": -2105796348,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3226,7 +4088,7 @@
         }
       },
       {
-        "HashCode": 1435435888,
+        "HashCode": -849929583,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3247,7 +4109,7 @@
         }
       },
       {
-        "HashCode": -1809840607,
+        "HashCode": -990493777,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3269,7 +4131,7 @@
         }
       },
       {
-        "HashCode": -1525152209,
+        "HashCode": -1085167499,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3302,7 +4164,7 @@
         }
       },
       {
-        "HashCode": 1907298044,
+        "HashCode": -1110309566,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.ErrorBoundary.ErrorContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3336,7 +4198,7 @@
         }
       },
       {
-        "HashCode": 1913719038,
+        "HashCode": 1226339076,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3468,7 +4330,7 @@
         }
       },
       {
-        "HashCode": 1015555889,
+        "HashCode": -2081757863,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3601,7 +4463,7 @@
         }
       },
       {
-        "HashCode": -1547322602,
+        "HashCode": -370217850,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3634,7 +4496,7 @@
         }
       },
       {
-        "HashCode": 306911793,
+        "HashCode": 1464522534,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ChildContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3668,7 +4530,7 @@
         }
       },
       {
-        "HashCode": 1107396033,
+        "HashCode": 913768475,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3701,7 +4563,7 @@
         }
       },
       {
-        "HashCode": -1301038010,
+        "HashCode": 1085194196,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.ItemContent",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3735,7 +4597,7 @@
         }
       },
       {
-        "HashCode": -339568314,
+        "HashCode": 1106737356,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3768,7 +4630,7 @@
         }
       },
       {
-        "HashCode": -1712198151,
+        "HashCode": -1468788781,
         "Kind": "Components.ChildContent",
         "Name": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -3802,869 +4664,7 @@
         }
       },
       {
-        "HashCode": -121441164,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.CascadingValue`1\">\r\n            <summary>\r\n            A component that provides a cascading value to all descendant components.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CascadingValue"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "TValue",
-            "TypeName": "System.Type",
-            "Documentation": "Specifies the type of the type parameter TValue for the Microsoft.AspNetCore.Components.CascadingValue<TValue> component.",
-            "Metadata": {
-              "Common.PropertyName": "TValue",
-              "Components.TypeParameter": "True",
-              "Components.TypeParameterIsCascading": "False"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "ChildContent",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.ChildContent\">\r\n            <summary>\r\n            The content to which the value should be provided.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "ChildContent",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Value",
-            "TypeName": "TValue",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Value\">\r\n            <summary>\r\n            The value to be provided.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Value",
-              "Common.GloballyQualifiedTypeName": "TValue",
-              "Components.GenericTyped": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Name",
-            "TypeName": "System.String",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Name\">\r\n             <summary>\r\n             Optionally gives a name to the provided value. Descendant components\r\n             will be able to receive the value by specifying this name.\r\n            \r\n             If no name is specified, then descendant components will receive the\r\n             value based the type of value they are requesting.\r\n             </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Name",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "IsFixed",
-            "TypeName": "System.Boolean",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.IsFixed\">\r\n            <summary>\r\n            If true, indicates that <see cref=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Value\" /> will not change. This is a\r\n            performance optimization that allows the framework to skip setting up\r\n            change notifications. Set this flag only if you will not change\r\n            <see cref=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Value\" /> during the component's lifetime.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "IsFixed",
-              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
-          "Common.TypeNameIdentifier": "CascadingValue",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
-          "Components.GenericTyped": "True",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1770368273,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.CascadingValue`1\">\r\n            <summary>\r\n            A component that provides a cascading value to all descendant components.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Microsoft.AspNetCore.Components.CascadingValue"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "TValue",
-            "TypeName": "System.Type",
-            "Documentation": "Specifies the type of the type parameter TValue for the Microsoft.AspNetCore.Components.CascadingValue<TValue> component.",
-            "Metadata": {
-              "Common.PropertyName": "TValue",
-              "Components.TypeParameter": "True",
-              "Components.TypeParameterIsCascading": "False"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "ChildContent",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.ChildContent\">\r\n            <summary>\r\n            The content to which the value should be provided.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "ChildContent",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Value",
-            "TypeName": "TValue",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Value\">\r\n            <summary>\r\n            The value to be provided.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Value",
-              "Common.GloballyQualifiedTypeName": "TValue",
-              "Components.GenericTyped": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Name",
-            "TypeName": "System.String",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Name\">\r\n             <summary>\r\n             Optionally gives a name to the provided value. Descendant components\r\n             will be able to receive the value by specifying this name.\r\n            \r\n             If no name is specified, then descendant components will receive the\r\n             value based the type of value they are requesting.\r\n             </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Name",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "IsFixed",
-            "TypeName": "System.Boolean",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.IsFixed\">\r\n            <summary>\r\n            If true, indicates that <see cref=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Value\" /> will not change. This is a\r\n            performance optimization that allows the framework to skip setting up\r\n            change notifications. Set this flag only if you will not change\r\n            <see cref=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.Value\" /> during the component's lifetime.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "IsFixed",
-              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
-          "Common.TypeNameIdentifier": "CascadingValue",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
-          "Components.GenericTyped": "True",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1686608987,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.ChildContent\">\r\n            <summary>\r\n            The content to which the value should be provided.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ChildContent",
-            "ParentTag": "CascadingValue"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
-          "Common.TypeNameIdentifier": "CascadingValue",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 386021439,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.CascadingValue`1.ChildContent\">\r\n            <summary>\r\n            The content to which the value should be provided.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ChildContent",
-            "ParentTag": "Microsoft.AspNetCore.Components.CascadingValue"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.CascadingValue<TValue>.ChildContent",
-          "Common.TypeNameIdentifier": "CascadingValue",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 1982196129,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.DynamicComponent\">\r\n            <summary>\r\n            A component that renders another component dynamically according to its\r\n            <see cref=\"P:Microsoft.AspNetCore.Components.DynamicComponent.Type\" /> parameter.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DynamicComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Type",
-            "TypeName": "System.Type",
-            "IsEditorRequired": true,
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.DynamicComponent.Type\">\r\n            <summary>\r\n            Gets or sets the type of the component to be rendered. The supplied type must\r\n            implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" />.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Type",
-              "Common.GloballyQualifiedTypeName": "global::System.Type"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Parameters",
-            "TypeName": "System.Collections.Generic.IDictionary<System.String, System.Object>",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.DynamicComponent.Parameters\">\r\n            <summary>\r\n            Gets or sets a dictionary of parameters to be passed to the component.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Parameters",
-              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.DynamicComponent",
-          "Common.TypeNameIdentifier": "DynamicComponent",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1921232231,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.DynamicComponent",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.DynamicComponent\">\r\n            <summary>\r\n            A component that renders another component dynamically according to its\r\n            <see cref=\"P:Microsoft.AspNetCore.Components.DynamicComponent.Type\" /> parameter.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Microsoft.AspNetCore.Components.DynamicComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Type",
-            "TypeName": "System.Type",
-            "IsEditorRequired": true,
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.DynamicComponent.Type\">\r\n            <summary>\r\n            Gets or sets the type of the component to be rendered. The supplied type must\r\n            implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" />.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Type",
-              "Common.GloballyQualifiedTypeName": "global::System.Type"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Parameters",
-            "TypeName": "System.Collections.Generic.IDictionary<System.String, System.Object>",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.DynamicComponent.Parameters\">\r\n            <summary>\r\n            Gets or sets a dictionary of parameters to be passed to the component.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Parameters",
-              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.DynamicComponent",
-          "Common.TypeNameIdentifier": "DynamicComponent",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 125748433,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.LayoutView",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.LayoutView\">\r\n            <summary>\r\n            Displays the specified content inside the specified layout and any further\r\n            nested layouts.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "LayoutView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ChildContent",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutView.ChildContent\">\r\n            <summary>\r\n            Gets or sets the content to display.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "ChildContent",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Layout",
-            "TypeName": "System.Type",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutView.Layout\">\r\n            <summary>\r\n            Gets or sets the type of the layout in which to display the content.\r\n            The type must implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" /> and accept a parameter named <see cref=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\" />.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Layout",
-              "Common.GloballyQualifiedTypeName": "global::System.Type"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.LayoutView",
-          "Common.TypeNameIdentifier": "LayoutView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 700674121,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.LayoutView",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.LayoutView\">\r\n            <summary>\r\n            Displays the specified content inside the specified layout and any further\r\n            nested layouts.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Microsoft.AspNetCore.Components.LayoutView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ChildContent",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutView.ChildContent\">\r\n            <summary>\r\n            Gets or sets the content to display.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "ChildContent",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Layout",
-            "TypeName": "System.Type",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutView.Layout\">\r\n            <summary>\r\n            Gets or sets the type of the layout in which to display the content.\r\n            The type must implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" /> and accept a parameter named <see cref=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\" />.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Layout",
-              "Common.GloballyQualifiedTypeName": "global::System.Type"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.LayoutView",
-          "Common.TypeNameIdentifier": "LayoutView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 661974759,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutView.ChildContent\">\r\n            <summary>\r\n            Gets or sets the content to display.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ChildContent",
-            "ParentTag": "LayoutView"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
-          "Common.TypeNameIdentifier": "LayoutView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 582695663,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.LayoutView.ChildContent\">\r\n            <summary>\r\n            Gets or sets the content to display.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ChildContent",
-            "ParentTag": "Microsoft.AspNetCore.Components.LayoutView"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.LayoutView.ChildContent",
-          "Common.TypeNameIdentifier": "LayoutView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 191502062,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.RouteView",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.RouteView\">\r\n            <summary>\r\n            Displays the specified page component, rendering it inside its layout\r\n            and any further nested layouts.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "RouteView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "RouteData",
-            "TypeName": "Microsoft.AspNetCore.Components.RouteData",
-            "IsEditorRequired": true,
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.RouteData\">\r\n            <summary>\r\n            Gets or sets the route data. This determines the page that will be\r\n            displayed and the parameter values that will be supplied to the page.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "RouteData",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RouteData"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "DefaultLayout",
-            "TypeName": "System.Type",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.DefaultLayout\">\r\n            <summary>\r\n            Gets or sets the type of a layout to be used if the page does not\r\n            declare any layout. If specified, the type must implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" />\r\n            and accept a parameter named <see cref=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\" />.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "DefaultLayout",
-              "Common.GloballyQualifiedTypeName": "global::System.Type"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.RouteView",
-          "Common.TypeNameIdentifier": "RouteView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 2126977907,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.RouteView",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.RouteView\">\r\n            <summary>\r\n            Displays the specified page component, rendering it inside its layout\r\n            and any further nested layouts.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Microsoft.AspNetCore.Components.RouteView"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "RouteData",
-            "TypeName": "Microsoft.AspNetCore.Components.RouteData",
-            "IsEditorRequired": true,
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.RouteData\">\r\n            <summary>\r\n            Gets or sets the route data. This determines the page that will be\r\n            displayed and the parameter values that will be supplied to the page.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "RouteData",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RouteData"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "DefaultLayout",
-            "TypeName": "System.Type",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.RouteView.DefaultLayout\">\r\n            <summary>\r\n            Gets or sets the type of a layout to be used if the page does not\r\n            declare any layout. If specified, the type must implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" />\r\n            and accept a parameter named <see cref=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\" />.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "DefaultLayout",
-              "Common.GloballyQualifiedTypeName": "global::System.Type"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.RouteView",
-          "Common.TypeNameIdentifier": "RouteView",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -785519760,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.Routing.Router",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.Routing.Router\">\r\n            <summary>\r\n            A component that supplies route data corresponding to the current navigation state.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Router"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "AppAssembly",
-            "TypeName": "System.Reflection.Assembly",
-            "IsEditorRequired": true,
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.AppAssembly\">\r\n            <summary>\r\n            Gets or sets the assembly that should be searched for components matching the URI.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "AppAssembly",
-              "Common.GloballyQualifiedTypeName": "global::System.Reflection.Assembly"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "AdditionalAssemblies",
-            "TypeName": "System.Collections.Generic.IEnumerable<System.Reflection.Assembly>",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.AdditionalAssemblies\">\r\n            <summary>\r\n            Gets or sets a collection of additional assemblies that should be searched for components\r\n            that can match URIs.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "AdditionalAssemblies",
-              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.IEnumerable<global::System.Reflection.Assembly>"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "NotFound",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "IsEditorRequired": true,
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.NotFound\">\r\n            <summary>\r\n            Gets or sets the content to display when no match is found for the requested route.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "NotFound",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Found",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.RouteData>",
-            "IsEditorRequired": true,
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Found\">\r\n            <summary>\r\n            Gets or sets the content to display when a match is found for the requested route.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Found",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.RouteData>",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Navigating",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Navigating\">\r\n            <summary>\r\n            Get or sets the content to display when asynchronous navigation is in progress.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Navigating",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnNavigateAsync",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Routing.NavigationContext>",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.OnNavigateAsync\">\r\n            <summary>\r\n            Gets or sets a handler that should be called before navigating to a new page.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "OnNavigateAsync",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Routing.NavigationContext>",
-              "Components.EventCallback": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "PreferExactMatches",
-            "TypeName": "System.Boolean",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.PreferExactMatches\">\r\n            <summary>\r\n            Gets or sets a flag to indicate whether route matching should prefer exact matches\r\n            over wildcards.\r\n            <para>This property is obsolete and configuring it does nothing.</para>\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "PreferExactMatches",
-              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "Documentation": "Specifies the parameter name for all child content expressions.",
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router",
-          "Common.TypeNameIdentifier": "Router",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -732788696,
-        "Kind": "Components.Component",
-        "Name": "Microsoft.AspNetCore.Components.Routing.Router",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"T:Microsoft.AspNetCore.Components.Routing.Router\">\r\n            <summary>\r\n            A component that supplies route data corresponding to the current navigation state.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Microsoft.AspNetCore.Components.Routing.Router"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "AppAssembly",
-            "TypeName": "System.Reflection.Assembly",
-            "IsEditorRequired": true,
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.AppAssembly\">\r\n            <summary>\r\n            Gets or sets the assembly that should be searched for components matching the URI.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "AppAssembly",
-              "Common.GloballyQualifiedTypeName": "global::System.Reflection.Assembly"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "AdditionalAssemblies",
-            "TypeName": "System.Collections.Generic.IEnumerable<System.Reflection.Assembly>",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.AdditionalAssemblies\">\r\n            <summary>\r\n            Gets or sets a collection of additional assemblies that should be searched for components\r\n            that can match URIs.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "AdditionalAssemblies",
-              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.IEnumerable<global::System.Reflection.Assembly>"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "NotFound",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "IsEditorRequired": true,
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.NotFound\">\r\n            <summary>\r\n            Gets or sets the content to display when no match is found for the requested route.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "NotFound",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Found",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.RouteData>",
-            "IsEditorRequired": true,
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Found\">\r\n            <summary>\r\n            Gets or sets the content to display when a match is found for the requested route.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Found",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment<global::Microsoft.AspNetCore.Components.RouteData>",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Navigating",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Navigating\">\r\n            <summary>\r\n            Get or sets the content to display when asynchronous navigation is in progress.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "Navigating",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.RenderFragment",
-              "Components.ChildContent": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnNavigateAsync",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Routing.NavigationContext>",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.OnNavigateAsync\">\r\n            <summary>\r\n            Gets or sets a handler that should be called before navigating to a new page.\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "OnNavigateAsync",
-              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Routing.NavigationContext>",
-              "Components.EventCallback": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "PreferExactMatches",
-            "TypeName": "System.Boolean",
-            "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.PreferExactMatches\">\r\n            <summary>\r\n            Gets or sets a flag to indicate whether route matching should prefer exact matches\r\n            over wildcards.\r\n            <para>This property is obsolete and configuring it does nothing.</para>\r\n            </summary>\r\n        </member>",
-            "Metadata": {
-              "Common.PropertyName": "PreferExactMatches",
-              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "Documentation": "Specifies the parameter name for all child content expressions.",
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router",
-          "Common.TypeNameIdentifier": "Router",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1572538758,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.NotFound\">\r\n            <summary>\r\n            Gets or sets the content to display when no match is found for the requested route.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NotFound",
-            "ParentTag": "Router"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
-          "Common.TypeNameIdentifier": "Router",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -1544496236,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.NotFound\">\r\n            <summary>\r\n            Gets or sets the content to display when no match is found for the requested route.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NotFound",
-            "ParentTag": "Microsoft.AspNetCore.Components.Routing.Router"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router.NotFound",
-          "Common.TypeNameIdentifier": "Router",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 573713846,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Found\">\r\n            <summary>\r\n            Gets or sets the content to display when a match is found for the requested route.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Found",
-            "ParentTag": "Router"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.ChildContent",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "Documentation": "Specifies the parameter name for the 'Found' child content expression.",
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router.Found",
-          "Common.TypeNameIdentifier": "Router",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -1665115576,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Routing.Router.Found",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Found\">\r\n            <summary>\r\n            Gets or sets the content to display when a match is found for the requested route.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Found",
-            "ParentTag": "Microsoft.AspNetCore.Components.Routing.Router"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.ChildContent",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "Documentation": "Specifies the parameter name for the 'Found' child content expression.",
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router.Found",
-          "Common.TypeNameIdentifier": "Router",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -239782574,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Navigating\">\r\n            <summary>\r\n            Get or sets the content to display when asynchronous navigation is in progress.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Navigating",
-            "ParentTag": "Router"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
-          "Common.TypeNameIdentifier": "Router",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": 1788435840,
-        "Kind": "Components.ChildContent",
-        "Name": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
-        "AssemblyName": "Microsoft.AspNetCore.Components",
-        "Documentation": "<member name=\"P:Microsoft.AspNetCore.Components.Routing.Router.Navigating\">\r\n            <summary>\r\n            Get or sets the content to display when asynchronous navigation is in progress.\r\n            </summary>\r\n        </member>",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Navigating",
-            "ParentTag": "Microsoft.AspNetCore.Components.Routing.Router"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.Router.Navigating",
-          "Common.TypeNameIdentifier": "Router",
-          "Common.TypeNamespace": "Microsoft.AspNetCore.Components.Routing",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -593093658,
+        "HashCode": 2077958287,
         "Kind": "Components.EventHandler",
         "Name": "onfocus",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -4747,7 +4747,7 @@
         }
       },
       {
-        "HashCode": 311847603,
+        "HashCode": -254156354,
         "Kind": "Components.EventHandler",
         "Name": "onblur",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -4830,7 +4830,7 @@
         }
       },
       {
-        "HashCode": -385130363,
+        "HashCode": -623455435,
         "Kind": "Components.EventHandler",
         "Name": "onfocusin",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -4913,7 +4913,7 @@
         }
       },
       {
-        "HashCode": 163832344,
+        "HashCode": 304963094,
         "Kind": "Components.EventHandler",
         "Name": "onfocusout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -4996,7 +4996,7 @@
         }
       },
       {
-        "HashCode": 120129817,
+        "HashCode": -1495409784,
         "Kind": "Components.EventHandler",
         "Name": "onmouseover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5079,7 +5079,7 @@
         }
       },
       {
-        "HashCode": -1354312147,
+        "HashCode": -1674644224,
         "Kind": "Components.EventHandler",
         "Name": "onmouseout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5162,7 +5162,7 @@
         }
       },
       {
-        "HashCode": 1480614012,
+        "HashCode": -1556206286,
         "Kind": "Components.EventHandler",
         "Name": "onmouseleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5245,7 +5245,7 @@
         }
       },
       {
-        "HashCode": 393256587,
+        "HashCode": -627729057,
         "Kind": "Components.EventHandler",
         "Name": "onmouseenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5328,7 +5328,7 @@
         }
       },
       {
-        "HashCode": -1022056920,
+        "HashCode": 1936877015,
         "Kind": "Components.EventHandler",
         "Name": "onmousemove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5411,7 +5411,7 @@
         }
       },
       {
-        "HashCode": -276384062,
+        "HashCode": 1854844231,
         "Kind": "Components.EventHandler",
         "Name": "onmousedown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5494,7 +5494,7 @@
         }
       },
       {
-        "HashCode": 1552413684,
+        "HashCode": 797882573,
         "Kind": "Components.EventHandler",
         "Name": "onmouseup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5577,7 +5577,7 @@
         }
       },
       {
-        "HashCode": 1104826020,
+        "HashCode": -468362023,
         "Kind": "Components.EventHandler",
         "Name": "onclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5660,7 +5660,7 @@
         }
       },
       {
-        "HashCode": -801269504,
+        "HashCode": 1821929145,
         "Kind": "Components.EventHandler",
         "Name": "ondblclick",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5743,7 +5743,7 @@
         }
       },
       {
-        "HashCode": -1233228803,
+        "HashCode": 46193417,
         "Kind": "Components.EventHandler",
         "Name": "onwheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5826,7 +5826,7 @@
         }
       },
       {
-        "HashCode": 1440899546,
+        "HashCode": 176975621,
         "Kind": "Components.EventHandler",
         "Name": "onmousewheel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5909,7 +5909,7 @@
         }
       },
       {
-        "HashCode": -1578397498,
+        "HashCode": 835417364,
         "Kind": "Components.EventHandler",
         "Name": "oncontextmenu",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -5992,7 +5992,7 @@
         }
       },
       {
-        "HashCode": -1717577127,
+        "HashCode": -8030213,
         "Kind": "Components.EventHandler",
         "Name": "ondrag",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6075,7 +6075,7 @@
         }
       },
       {
-        "HashCode": 1365021797,
+        "HashCode": 495952519,
         "Kind": "Components.EventHandler",
         "Name": "ondragend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6158,7 +6158,7 @@
         }
       },
       {
-        "HashCode": 1141741811,
+        "HashCode": -545099372,
         "Kind": "Components.EventHandler",
         "Name": "ondragenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6241,7 +6241,7 @@
         }
       },
       {
-        "HashCode": 2075953887,
+        "HashCode": 369899896,
         "Kind": "Components.EventHandler",
         "Name": "ondragleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6324,7 +6324,7 @@
         }
       },
       {
-        "HashCode": -265800383,
+        "HashCode": 960990103,
         "Kind": "Components.EventHandler",
         "Name": "ondragover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6407,7 +6407,7 @@
         }
       },
       {
-        "HashCode": 1616691719,
+        "HashCode": 945301887,
         "Kind": "Components.EventHandler",
         "Name": "ondragstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6490,7 +6490,7 @@
         }
       },
       {
-        "HashCode": 139192346,
+        "HashCode": -400988794,
         "Kind": "Components.EventHandler",
         "Name": "ondrop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6573,7 +6573,7 @@
         }
       },
       {
-        "HashCode": -1789504373,
+        "HashCode": -200693469,
         "Kind": "Components.EventHandler",
         "Name": "onkeydown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6656,7 +6656,7 @@
         }
       },
       {
-        "HashCode": 523939761,
+        "HashCode": -875391807,
         "Kind": "Components.EventHandler",
         "Name": "onkeyup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6739,7 +6739,7 @@
         }
       },
       {
-        "HashCode": 519633541,
+        "HashCode": -1585032078,
         "Kind": "Components.EventHandler",
         "Name": "onkeypress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6822,7 +6822,7 @@
         }
       },
       {
-        "HashCode": -1901665850,
+        "HashCode": -983017691,
         "Kind": "Components.EventHandler",
         "Name": "onchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6905,7 +6905,7 @@
         }
       },
       {
-        "HashCode": -1778849316,
+        "HashCode": 2047168711,
         "Kind": "Components.EventHandler",
         "Name": "oninput",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -6988,7 +6988,7 @@
         }
       },
       {
-        "HashCode": 102255616,
+        "HashCode": 101240621,
         "Kind": "Components.EventHandler",
         "Name": "oninvalid",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7071,7 +7071,7 @@
         }
       },
       {
-        "HashCode": 542421875,
+        "HashCode": 199786903,
         "Kind": "Components.EventHandler",
         "Name": "onreset",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7154,7 +7154,7 @@
         }
       },
       {
-        "HashCode": 1007209347,
+        "HashCode": 1376587892,
         "Kind": "Components.EventHandler",
         "Name": "onselect",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7237,7 +7237,7 @@
         }
       },
       {
-        "HashCode": -1890308082,
+        "HashCode": 693054601,
         "Kind": "Components.EventHandler",
         "Name": "onselectstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7320,7 +7320,7 @@
         }
       },
       {
-        "HashCode": -515987992,
+        "HashCode": -1850784630,
         "Kind": "Components.EventHandler",
         "Name": "onselectionchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7403,7 +7403,7 @@
         }
       },
       {
-        "HashCode": -323977724,
+        "HashCode": -757323206,
         "Kind": "Components.EventHandler",
         "Name": "onsubmit",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7486,7 +7486,7 @@
         }
       },
       {
-        "HashCode": 391377288,
+        "HashCode": 690600104,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7569,7 +7569,7 @@
         }
       },
       {
-        "HashCode": -224172946,
+        "HashCode": 306648734,
         "Kind": "Components.EventHandler",
         "Name": "onbeforecut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7652,7 +7652,7 @@
         }
       },
       {
-        "HashCode": 1005310213,
+        "HashCode": 200798257,
         "Kind": "Components.EventHandler",
         "Name": "onbeforepaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7735,7 +7735,7 @@
         }
       },
       {
-        "HashCode": 782691530,
+        "HashCode": -904227724,
         "Kind": "Components.EventHandler",
         "Name": "oncopy",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7818,7 +7818,7 @@
         }
       },
       {
-        "HashCode": -1625266872,
+        "HashCode": 2146019745,
         "Kind": "Components.EventHandler",
         "Name": "oncut",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7901,7 +7901,7 @@
         }
       },
       {
-        "HashCode": -1357415786,
+        "HashCode": -376389263,
         "Kind": "Components.EventHandler",
         "Name": "onpaste",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -7984,7 +7984,7 @@
         }
       },
       {
-        "HashCode": 797939115,
+        "HashCode": 1123065802,
         "Kind": "Components.EventHandler",
         "Name": "ontouchcancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8067,7 +8067,7 @@
         }
       },
       {
-        "HashCode": 823163323,
+        "HashCode": -686837000,
         "Kind": "Components.EventHandler",
         "Name": "ontouchend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8150,7 +8150,7 @@
         }
       },
       {
-        "HashCode": -1092709351,
+        "HashCode": -1921101125,
         "Kind": "Components.EventHandler",
         "Name": "ontouchmove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8233,7 +8233,7 @@
         }
       },
       {
-        "HashCode": -1926102126,
+        "HashCode": 1663821947,
         "Kind": "Components.EventHandler",
         "Name": "ontouchstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8316,7 +8316,7 @@
         }
       },
       {
-        "HashCode": 1535695484,
+        "HashCode": -260873838,
         "Kind": "Components.EventHandler",
         "Name": "ontouchenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8399,7 +8399,7 @@
         }
       },
       {
-        "HashCode": -1047708392,
+        "HashCode": -101685268,
         "Kind": "Components.EventHandler",
         "Name": "ontouchleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8482,7 +8482,7 @@
         }
       },
       {
-        "HashCode": 731976021,
+        "HashCode": -1126598459,
         "Kind": "Components.EventHandler",
         "Name": "ongotpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8565,7 +8565,7 @@
         }
       },
       {
-        "HashCode": 561878867,
+        "HashCode": -1536549176,
         "Kind": "Components.EventHandler",
         "Name": "onlostpointercapture",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8648,7 +8648,7 @@
         }
       },
       {
-        "HashCode": 1945738470,
+        "HashCode": -1587896704,
         "Kind": "Components.EventHandler",
         "Name": "onpointercancel",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8731,7 +8731,7 @@
         }
       },
       {
-        "HashCode": 230086109,
+        "HashCode": -582455700,
         "Kind": "Components.EventHandler",
         "Name": "onpointerdown",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8814,7 +8814,7 @@
         }
       },
       {
-        "HashCode": 653475075,
+        "HashCode": -996854850,
         "Kind": "Components.EventHandler",
         "Name": "onpointerenter",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8897,7 +8897,7 @@
         }
       },
       {
-        "HashCode": 1986532194,
+        "HashCode": -312642906,
         "Kind": "Components.EventHandler",
         "Name": "onpointerleave",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -8980,7 +8980,7 @@
         }
       },
       {
-        "HashCode": 1610024443,
+        "HashCode": 1873833981,
         "Kind": "Components.EventHandler",
         "Name": "onpointermove",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9063,7 +9063,7 @@
         }
       },
       {
-        "HashCode": 1627322228,
+        "HashCode": -91856827,
         "Kind": "Components.EventHandler",
         "Name": "onpointerout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9146,7 +9146,7 @@
         }
       },
       {
-        "HashCode": -2121990050,
+        "HashCode": 910946329,
         "Kind": "Components.EventHandler",
         "Name": "onpointerover",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9229,7 +9229,7 @@
         }
       },
       {
-        "HashCode": -1901109076,
+        "HashCode": 125608780,
         "Kind": "Components.EventHandler",
         "Name": "onpointerup",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9312,7 +9312,7 @@
         }
       },
       {
-        "HashCode": 1678983472,
+        "HashCode": -167539779,
         "Kind": "Components.EventHandler",
         "Name": "oncanplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9395,7 +9395,7 @@
         }
       },
       {
-        "HashCode": -416109024,
+        "HashCode": 860870136,
         "Kind": "Components.EventHandler",
         "Name": "oncanplaythrough",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9478,7 +9478,7 @@
         }
       },
       {
-        "HashCode": 1544202707,
+        "HashCode": 2096820349,
         "Kind": "Components.EventHandler",
         "Name": "oncuechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9561,7 +9561,7 @@
         }
       },
       {
-        "HashCode": 906798962,
+        "HashCode": -2065362810,
         "Kind": "Components.EventHandler",
         "Name": "ondurationchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9644,7 +9644,7 @@
         }
       },
       {
-        "HashCode": -822907814,
+        "HashCode": -1167606341,
         "Kind": "Components.EventHandler",
         "Name": "onemptied",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9727,7 +9727,7 @@
         }
       },
       {
-        "HashCode": -518148632,
+        "HashCode": 1776632513,
         "Kind": "Components.EventHandler",
         "Name": "onpause",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9810,7 +9810,7 @@
         }
       },
       {
-        "HashCode": 1563089833,
+        "HashCode": -1959129987,
         "Kind": "Components.EventHandler",
         "Name": "onplay",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9893,7 +9893,7 @@
         }
       },
       {
-        "HashCode": 1016543095,
+        "HashCode": -1187299385,
         "Kind": "Components.EventHandler",
         "Name": "onplaying",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -9976,7 +9976,7 @@
         }
       },
       {
-        "HashCode": 1257171474,
+        "HashCode": 473973795,
         "Kind": "Components.EventHandler",
         "Name": "onratechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10059,7 +10059,7 @@
         }
       },
       {
-        "HashCode": 1925732653,
+        "HashCode": 854001074,
         "Kind": "Components.EventHandler",
         "Name": "onseeked",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10142,7 +10142,7 @@
         }
       },
       {
-        "HashCode": -1832199117,
+        "HashCode": 36972349,
         "Kind": "Components.EventHandler",
         "Name": "onseeking",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10225,7 +10225,7 @@
         }
       },
       {
-        "HashCode": -1731554323,
+        "HashCode": -239083438,
         "Kind": "Components.EventHandler",
         "Name": "onstalled",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10308,7 +10308,7 @@
         }
       },
       {
-        "HashCode": -761467264,
+        "HashCode": -1145924185,
         "Kind": "Components.EventHandler",
         "Name": "onstop",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10391,7 +10391,7 @@
         }
       },
       {
-        "HashCode": 1454675756,
+        "HashCode": -1426157890,
         "Kind": "Components.EventHandler",
         "Name": "onsuspend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10474,7 +10474,7 @@
         }
       },
       {
-        "HashCode": 394917944,
+        "HashCode": -322496091,
         "Kind": "Components.EventHandler",
         "Name": "ontimeupdate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10557,7 +10557,7 @@
         }
       },
       {
-        "HashCode": 1415995117,
+        "HashCode": -1185492742,
         "Kind": "Components.EventHandler",
         "Name": "onvolumechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10640,7 +10640,7 @@
         }
       },
       {
-        "HashCode": 238587099,
+        "HashCode": 1708975780,
         "Kind": "Components.EventHandler",
         "Name": "onwaiting",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10723,7 +10723,7 @@
         }
       },
       {
-        "HashCode": -1835149912,
+        "HashCode": 479704201,
         "Kind": "Components.EventHandler",
         "Name": "onloadstart",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10806,7 +10806,7 @@
         }
       },
       {
-        "HashCode": -1384526362,
+        "HashCode": -1209541305,
         "Kind": "Components.EventHandler",
         "Name": "ontimeout",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10889,7 +10889,7 @@
         }
       },
       {
-        "HashCode": 294703130,
+        "HashCode": 2037448308,
         "Kind": "Components.EventHandler",
         "Name": "onabort",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -10972,7 +10972,7 @@
         }
       },
       {
-        "HashCode": -1198825617,
+        "HashCode": -1627226357,
         "Kind": "Components.EventHandler",
         "Name": "onload",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11055,7 +11055,7 @@
         }
       },
       {
-        "HashCode": -1359382108,
+        "HashCode": 1201541221,
         "Kind": "Components.EventHandler",
         "Name": "onloadend",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11138,7 +11138,7 @@
         }
       },
       {
-        "HashCode": -1610709588,
+        "HashCode": -200657405,
         "Kind": "Components.EventHandler",
         "Name": "onprogress",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11221,7 +11221,7 @@
         }
       },
       {
-        "HashCode": -1948580360,
+        "HashCode": 2782335,
         "Kind": "Components.EventHandler",
         "Name": "onerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11304,7 +11304,7 @@
         }
       },
       {
-        "HashCode": 1778676828,
+        "HashCode": 589232232,
         "Kind": "Components.EventHandler",
         "Name": "onactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11387,7 +11387,7 @@
         }
       },
       {
-        "HashCode": 1870733512,
+        "HashCode": 1721566611,
         "Kind": "Components.EventHandler",
         "Name": "onbeforeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11470,7 +11470,7 @@
         }
       },
       {
-        "HashCode": -604175686,
+        "HashCode": -2068236368,
         "Kind": "Components.EventHandler",
         "Name": "onbeforedeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11553,7 +11553,7 @@
         }
       },
       {
-        "HashCode": 77502123,
+        "HashCode": -1063992178,
         "Kind": "Components.EventHandler",
         "Name": "ondeactivate",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11636,7 +11636,7 @@
         }
       },
       {
-        "HashCode": -1584838283,
+        "HashCode": 1530833340,
         "Kind": "Components.EventHandler",
         "Name": "onended",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11719,7 +11719,7 @@
         }
       },
       {
-        "HashCode": -475837253,
+        "HashCode": 1323478139,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11802,7 +11802,7 @@
         }
       },
       {
-        "HashCode": -162765937,
+        "HashCode": 762541184,
         "Kind": "Components.EventHandler",
         "Name": "onfullscreenerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11885,7 +11885,7 @@
         }
       },
       {
-        "HashCode": -2139338654,
+        "HashCode": -1311549573,
         "Kind": "Components.EventHandler",
         "Name": "onloadeddata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -11968,7 +11968,7 @@
         }
       },
       {
-        "HashCode": 642325515,
+        "HashCode": -2146860891,
         "Kind": "Components.EventHandler",
         "Name": "onloadedmetadata",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12051,7 +12051,7 @@
         }
       },
       {
-        "HashCode": -1388138860,
+        "HashCode": -360310738,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockchange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12134,7 +12134,7 @@
         }
       },
       {
-        "HashCode": -1942242983,
+        "HashCode": -514104763,
         "Kind": "Components.EventHandler",
         "Name": "onpointerlockerror",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12217,7 +12217,7 @@
         }
       },
       {
-        "HashCode": 1552887125,
+        "HashCode": -2109847302,
         "Kind": "Components.EventHandler",
         "Name": "onreadystatechange",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12300,7 +12300,7 @@
         }
       },
       {
-        "HashCode": 56747485,
+        "HashCode": -584419756,
         "Kind": "Components.EventHandler",
         "Name": "onscroll",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12383,7 +12383,7 @@
         }
       },
       {
-        "HashCode": -287519779,
+        "HashCode": -1770242336,
         "Kind": "Components.EventHandler",
         "Name": "ontoggle",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12466,7 +12466,7 @@
         }
       },
       {
-        "HashCode": 612538470,
+        "HashCode": -1418462103,
         "Kind": "Components.Splat",
         "Name": "Attributes",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12505,7 +12505,7 @@
         }
       },
       {
-        "HashCode": -1626761626,
+        "HashCode": -231574582,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12601,7 +12601,7 @@
         }
       },
       {
-        "HashCode": -1194823932,
+        "HashCode": 1781169937,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12723,7 +12723,7 @@
         }
       },
       {
-        "HashCode": 2075831300,
+        "HashCode": -1757145170,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12845,7 +12845,7 @@
         }
       },
       {
-        "HashCode": 72391406,
+        "HashCode": 1478505707,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -12978,7 +12978,7 @@
         }
       },
       {
-        "HashCode": -1902102307,
+        "HashCode": 1277451903,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13111,7 +13111,7 @@
         }
       },
       {
-        "HashCode": -397459464,
+        "HashCode": -973825531,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13244,7 +13244,7 @@
         }
       },
       {
-        "HashCode": 224058861,
+        "HashCode": -1584672646,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13377,7 +13377,7 @@
         }
       },
       {
-        "HashCode": -405763099,
+        "HashCode": -1126777865,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13510,7 +13510,7 @@
         }
       },
       {
-        "HashCode": 1589734937,
+        "HashCode": -187312809,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13643,7 +13643,7 @@
         }
       },
       {
-        "HashCode": -1273693026,
+        "HashCode": 1273848963,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13776,7 +13776,7 @@
         }
       },
       {
-        "HashCode": -1322229749,
+        "HashCode": 1497669593,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -13909,7 +13909,7 @@
         }
       },
       {
-        "HashCode": 1116970438,
+        "HashCode": -1239997050,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14042,7 +14042,7 @@
         }
       },
       {
-        "HashCode": -758941402,
+        "HashCode": -193702194,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14175,7 +14175,7 @@
         }
       },
       {
-        "HashCode": -1315253328,
+        "HashCode": 846067426,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14308,7 +14308,7 @@
         }
       },
       {
-        "HashCode": -1296732323,
+        "HashCode": 1200106514,
         "Kind": "Components.Bind",
         "Name": "Bind_value",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14441,7 +14441,7 @@
         }
       },
       {
-        "HashCode": 1341268956,
+        "HashCode": -1906207903,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14563,7 +14563,7 @@
         }
       },
       {
-        "HashCode": -1759002800,
+        "HashCode": -1670044503,
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -14685,7 +14685,7 @@
         }
       },
       {
-        "HashCode": -851276258,
+        "HashCode": 782701630,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -14772,7 +14772,7 @@
         }
       },
       {
-        "HashCode": -1975047941,
+        "HashCode": 514859190,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -14860,7 +14860,7 @@
         }
       },
       {
-        "HashCode": -1392153553,
+        "HashCode": 1601021944,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -14947,7 +14947,7 @@
         }
       },
       {
-        "HashCode": 758133401,
+        "HashCode": -626381017,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputDate<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15035,7 +15035,7 @@
         }
       },
       {
-        "HashCode": -924166458,
+        "HashCode": -1488474119,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15122,7 +15122,7 @@
         }
       },
       {
-        "HashCode": -1841701364,
+        "HashCode": 1258526395,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputNumber<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15210,7 +15210,7 @@
         }
       },
       {
-        "HashCode": 1985543706,
+        "HashCode": -677577671,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15297,7 +15297,7 @@
         }
       },
       {
-        "HashCode": 1874723482,
+        "HashCode": -1497546086,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputRadioGroup<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15385,7 +15385,7 @@
         }
       },
       {
-        "HashCode": -750180784,
+        "HashCode": -157442664,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15472,7 +15472,7 @@
         }
       },
       {
-        "HashCode": -112056083,
+        "HashCode": -1695349931,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputSelect<TValue>",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15560,7 +15560,7 @@
         }
       },
       {
-        "HashCode": -901789900,
+        "HashCode": -1262665292,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15647,7 +15647,7 @@
         }
       },
       {
-        "HashCode": 1256203652,
+        "HashCode": 775415795,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputText",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15735,7 +15735,7 @@
         }
       },
       {
-        "HashCode": -381650852,
+        "HashCode": 1738787286,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15822,7 +15822,7 @@
         }
       },
       {
-        "HashCode": 329686542,
+        "HashCode": -110616364,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputTextArea",
         "AssemblyName": "Microsoft.AspNetCore.Components.Web",
@@ -15910,7 +15910,7 @@
         }
       },
       {
-        "HashCode": 2010818281,
+        "HashCode": -1795580745,
         "Kind": "Components.Ref",
         "Name": "Ref",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15949,7 +15949,7 @@
         }
       },
       {
-        "HashCode": -1114198813,
+        "HashCode": -260136185,
         "Kind": "Components.Key",
         "Name": "Key",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -15993,13 +15993,8 @@
   "RootNamespace": "SisControl.Client",
   "Documents": [
     {
-      "FilePath": "c:\\Usr\\SisControl\\SisControl\\Client\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Usr\\SisControl\\SisControl\\Client\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
+      "FilePath": "c:\\Usr\\SisControl\\SisControl\\Client\\Pages\\ConsultarLancamentos.razor",
+      "TargetPath": "Pages\\ConsultarLancamentos.razor",
       "FileKind": "component"
     },
     {
@@ -16013,13 +16008,13 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Usr\\SisControl\\SisControl\\Client\\Pages\\ConsultarPessoas.razor",
-      "TargetPath": "Pages\\ConsultarPessoas.razor",
+      "FilePath": "c:\\Usr\\SisControl\\SisControl\\Client\\App.razor",
+      "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Usr\\SisControl\\SisControl\\Client\\Pages\\ConsultarLancamentos.razor",
-      "TargetPath": "Pages\\ConsultarLancamentos.razor",
+      "FilePath": "c:\\Usr\\SisControl\\SisControl\\Client\\Pages\\CadastrarPessoa.razor",
+      "TargetPath": "Pages\\CadastrarPessoa.razor",
       "FileKind": "component"
     },
     {
@@ -16028,13 +16023,18 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Usr\\SisControl\\SisControl\\Client\\App.razor",
-      "TargetPath": "App.razor",
+      "FilePath": "c:\\Usr\\SisControl\\SisControl\\Client\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Usr\\SisControl\\SisControl\\Client\\Pages\\CadastrarPessoa.razor",
-      "TargetPath": "Pages\\CadastrarPessoa.razor",
+      "FilePath": "c:\\Usr\\SisControl\\SisControl\\Client\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Usr\\SisControl\\SisControl\\Client\\Pages\\ConsultarPessoas.razor",
+      "TargetPath": "Pages\\ConsultarPessoas.razor",
       "FileKind": "component"
     }
   ],

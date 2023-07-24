@@ -2,6 +2,7 @@
 
 @using SisControl.Client.Services;
 @using SisControl.Shared
+@using SisControl.Shared.Models;
 @inject IServicoLancamentos ServicoLancamentos
 @inject NavigationManager NavigationManager
 
@@ -60,6 +61,7 @@
 </table>
 
 @code {
+
     protected override async Task OnInitializedAsync()
     {
         await ServicoLancamentos.BuscarTodosLancamentos();

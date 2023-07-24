@@ -1,20 +1,20 @@
 {
   "Version": 1,
-  "Hash": "EHAe1bKqf3Rs/u6XIn2v25jI5y31NnZsL0LKaomxaLg=",
+  "Hash": "kMid1SzXc8p6uJyQdMeQiMOzBeCNstxtuPAos6Etdew=",
   "Source": "SisControl.Server",
   "BasePath": "_content/SisControl.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
       "Version": 2,
       "Source": "SisControl.Client",
       "GetPublishAssetsTargets": "ComputeFilesToPublish;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;_PublishingBlazorWasmProject=true",
+      "AdditionalPublishProperties": "BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;_PublishingBlazorWasmProject=true;Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "NoBuild;RuntimeIdentifier;WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],
@@ -114,6 +114,23 @@
       "OriginalItemSpec": "C:\\Users\\robso\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.9\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "SisControl.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\robso\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.9\\runtimes\\browser-wasm\\native\\icudt.dat"
+    },
+    {
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "SisControl.Client",
       "SourceType": "Project",
@@ -163,23 +180,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\robso\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.9\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
-    },
-    {
-      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "SisControl.Client",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\robso\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.9\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -7016,23 +7016,6 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "SisControl.Client",
-      "SourceType": "Project",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
-    },
-    {
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "SisControl.Client",
       "SourceType": "Project",
@@ -7133,6 +7116,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "SisControl.Client",
+      "SourceType": "Project",
+      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

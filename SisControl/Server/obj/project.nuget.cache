@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eEDNVQAx2DaEr1neYxEGgvAM39BBuve6e72y1yX2HgrneI8zM8AfjlrpdKur9VHp2+ydIjQ6izGuEmIyP6lp2w==",
+  "dgSpecHash": "5Zmm9QUdey3ay4wOgGVklhZgxHp8ePULSSl+Pgq0HnRI1+DrkZ5coKrUI2qb9ugAGPYrO7SrTfNpFU9PoPnSew==",
   "success": true,
-  "projectFilePath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\server\\SisControl.Server.csproj",
+  "projectFilePath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Server\\SisControl.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\robso\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\robso\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

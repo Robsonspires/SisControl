@@ -9,11 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = SisControl.Client
 build_property.RootNamespace = SisControl.Client
-build_property.ProjectDir = d:\Usr\Projetos Blazor\SisControl\SisControl\Client\
+build_property.ProjectDir = D:\Usr\Projetos Blazor\SisControl\SisControl\Client\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\Usr\Projetos Blazor\SisControl\SisControl\Client
+build_property.MSBuildProjectDirectory = D:\Usr\Projetos Blazor\SisControl\SisControl\Client
 build_property._RazorSourceGeneratorDebug = 
 
 [D:/Usr/Projetos Blazor/SisControl/SisControl/Client/App.razor]
