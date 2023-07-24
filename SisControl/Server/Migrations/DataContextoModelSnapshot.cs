@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SisControl.Server.Data;
 
@@ -15,62 +16,431 @@ namespace SisControl.Server.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "7.0.7");
+            modelBuilder
+                .HasAnnotation("ProductVersion", "7.0.9")
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            modelBuilder.Entity("SisControl.Shared.EntidadePessoa", b =>
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("SisControl.Shared.Models.EntidadeComunidade", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Bairro")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CEP")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Cidade")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Cnpj")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Complemento")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Cpf")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("DataAtualizacao")
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("DataCadastro")
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateOnly>("DataNascimento")
-                        .HasColumnType("TEXT");
+                    b.Property<DateTime>("DataFundacao")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Endereco")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Fone")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UF")
                         .IsRequired()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("EntidadeComunidade");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Bairro = "Ipiranga",
+                            CEP = "29202-515",
+                            Cidade = "Guarapari",
+                            Cnpj = "27.054.162/009620",
+                            Complemento = "Com. Divino",
+                            DataFundacao = new DateTime(2016, 8, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "ofirdev@outlook.com",
+                            Endereco = "R. Eliziário Lourenço Dias, 505",
+                            Fone = "(27) 99937-1549",
+                            Nome = "Divino Espírito Santo",
+                            UF = "ES"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Bairro = "São João",
+                            CEP = "29202-515",
+                            Cidade = "Guarapari",
+                            Cnpj = "27.054.162/009620",
+                            Complemento = "Com. N. S. do Carmo",
+                            DataFundacao = new DateTime(2016, 8, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "ofirdev@outlook.com",
+                            Endereco = "R. Eliziário Lourenço Dias, 505",
+                            Fone = "(27) 99937-1549",
+                            Nome = "Nossa Senhora do Carmo",
+                            UF = "ES"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Bairro = "Ipiranga",
+                            CEP = "29202-515",
+                            Cidade = "Guarapari",
+                            Cnpj = "27.054.162/009620",
+                            Complemento = "Com. Rainha da Paz",
+                            DataFundacao = new DateTime(2016, 8, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "ofirdev@outlook.com",
+                            Endereco = "R. Eliziário Lourenço Dias, 505",
+                            Fone = "(27) 99937-1549",
+                            Nome = "Nossa Senhora Rainha da Paz",
+                            UF = "ES"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Bairro = "Praia do Riacho",
+                            CEP = "29202-515",
+                            Cidade = "Guarapari",
+                            Cnpj = "27.054.162/009620",
+                            Complemento = "Com. Sagrada Família",
+                            DataFundacao = new DateTime(2016, 8, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "ofirdev@outlook.com",
+                            Endereco = "R. Eliziário Lourenço Dias, 505",
+                            Fone = "(27) 99937-1549",
+                            Nome = "Sagrada Família",
+                            UF = "ES"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Bairro = "Kubitscheck",
+                            CEP = "29202-515",
+                            Cidade = "Guarapari",
+                            Cnpj = "27.054.162/009620",
+                            Complemento = "Com. Santa Cruz",
+                            DataFundacao = new DateTime(2016, 8, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "ofirdev@outlook.com",
+                            Endereco = "R. Eliziário Lourenço Dias, 505",
+                            Fone = "(27) 99937-1549",
+                            Nome = "Santa Cruz",
+                            UF = "ES"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Bairro = "Santa Margarida",
+                            CEP = "29202-515",
+                            Cidade = "Guarapari",
+                            Cnpj = "27.054.162/009620",
+                            Complemento = "Com. Santa Margarida",
+                            DataFundacao = new DateTime(2016, 8, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "ofirdev@outlook.com",
+                            Endereco = "R. Eliziário Lourenço Dias, 505",
+                            Fone = "(27) 99937-1549",
+                            Nome = "Santa Margarida",
+                            UF = "ES"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Bairro = "Concha D'Ostra",
+                            CEP = "29202-515",
+                            Cidade = "Guarapari",
+                            Cnpj = "27.054.162/009620",
+                            Complemento = "Com. Santo Expedito",
+                            DataFundacao = new DateTime(2016, 8, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "ofirdev@outlook.com",
+                            Endereco = "R. Eliziário Lourenço Dias, 505",
+                            Fone = "(27) 99937-1549",
+                            Nome = "Santo Expedito",
+                            UF = "ES"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Bairro = "Prainha de Olaria",
+                            CEP = "29202-515",
+                            Cidade = "Guarapari",
+                            Cnpj = "27.054.162/009620",
+                            Complemento = "Com. São João",
+                            DataFundacao = new DateTime(2016, 8, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "ofirdev@outlook.com",
+                            Endereco = "R. Eliziário Lourenço Dias, 505",
+                            Fone = "(27) 99937-1549",
+                            Nome = "São João Batista",
+                            UF = "ES"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Bairro = "Olaria",
+                            CEP = "29202-515",
+                            Cidade = "Guarapari",
+                            Cnpj = "27.054.162/009620",
+                            Complemento = "Com. São Judas",
+                            DataFundacao = new DateTime(2016, 8, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "ofirdev@outlook.com",
+                            Endereco = "R. Eliziário Lourenço Dias, 505",
+                            Fone = "(27) 99937-1549",
+                            Nome = "São Judas Tadeu",
+                            UF = "ES"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Bairro = "Coroado",
+                            CEP = "29202-515",
+                            Cidade = "Guarapari",
+                            Cnpj = "27.054.162/009620",
+                            Complemento = "Com. São Sebastião",
+                            DataFundacao = new DateTime(2016, 8, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "ofirdev@outlook.com",
+                            Endereco = "R. Eliziário Lourenço Dias, 505",
+                            Fone = "(27) 99937-1549",
+                            Nome = "São Sebastião",
+                            UF = "ES"
+                        });
+                });
+
+            modelBuilder.Entity("SisControl.Shared.Models.EntidadeLancamento", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("Abr")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Ago")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("Ano")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ComunidadeId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Dez")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Fev")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Jan")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Jul")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Jun")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Mai")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Mar")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Nov")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Out")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("PessoaId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Set")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("EntidadeLancamento");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Abr = true,
+                            Ago = false,
+                            Ano = 2023,
+                            ComunidadeId = 1,
+                            Dez = false,
+                            Fev = true,
+                            Jan = true,
+                            Jul = false,
+                            Jun = false,
+                            Mai = true,
+                            Mar = true,
+                            Nov = false,
+                            Out = false,
+                            PessoaId = 1,
+                            Set = false
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Abr = true,
+                            Ago = false,
+                            Ano = 2023,
+                            ComunidadeId = 3,
+                            Dez = false,
+                            Fev = true,
+                            Jan = true,
+                            Jul = false,
+                            Jun = false,
+                            Mai = true,
+                            Mar = true,
+                            Nov = false,
+                            Out = false,
+                            PessoaId = 2,
+                            Set = false
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Abr = true,
+                            Ago = false,
+                            Ano = 2023,
+                            ComunidadeId = 8,
+                            Dez = false,
+                            Fev = true,
+                            Jan = true,
+                            Jul = false,
+                            Jun = false,
+                            Mai = true,
+                            Mar = true,
+                            Nov = false,
+                            Out = false,
+                            PessoaId = 3,
+                            Set = false
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Abr = true,
+                            Ago = false,
+                            Ano = 2023,
+                            ComunidadeId = 1,
+                            Dez = false,
+                            Fev = true,
+                            Jan = true,
+                            Jul = false,
+                            Jun = false,
+                            Mai = true,
+                            Mar = true,
+                            Nov = false,
+                            Out = false,
+                            PessoaId = 2,
+                            Set = false
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Abr = true,
+                            Ago = false,
+                            Ano = 2023,
+                            ComunidadeId = 9,
+                            Dez = false,
+                            Fev = true,
+                            Jan = true,
+                            Jul = false,
+                            Jun = false,
+                            Mai = true,
+                            Mar = true,
+                            Nov = false,
+                            Out = false,
+                            PessoaId = 1,
+                            Set = false
+                        });
+                });
+
+            modelBuilder.Entity("SisControl.Shared.Models.EntidadePessoa", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Bairro")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CEP")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Cidade")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Complemento")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Cpf")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("DataAtualizacao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataNascimento")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Endereco")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Fone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UF")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -85,10 +455,10 @@ namespace SisControl.Server.Migrations
                             Cidade = "Guarapari",
                             Complemento = "Apto 001",
                             Cpf = "111.111.111-11",
-                            DataAtualizacao = new DateTime(2023, 7, 14, 10, 56, 21, 928, DateTimeKind.Local).AddTicks(7548),
-                            DataCadastro = new DateTime(2023, 7, 14, 10, 56, 21, 928, DateTimeKind.Local).AddTicks(7534),
-                            DataNascimento = new DateOnly(1972, 12, 16),
-                            Email = "Teste@teste.com",
+                            DataAtualizacao = new DateTime(2023, 7, 23, 20, 52, 25, 219, DateTimeKind.Local).AddTicks(5161),
+                            DataCadastro = new DateTime(2023, 7, 23, 20, 52, 25, 219, DateTimeKind.Local).AddTicks(5151),
+                            DataNascimento = new DateTime(1972, 12, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testeum@teste.com",
                             Endereco = "Rua da minha casa, 001",
                             Fone = "(27) 99999-1234",
                             Nome = "Primeira Pessoa Cadastrada",
@@ -102,10 +472,10 @@ namespace SisControl.Server.Migrations
                             Cidade = "Guarapari",
                             Complemento = "Apto 002",
                             Cpf = "222.222.222-22",
-                            DataAtualizacao = new DateTime(2023, 7, 14, 10, 56, 21, 928, DateTimeKind.Local).AddTicks(7643),
-                            DataCadastro = new DateTime(2023, 7, 14, 10, 56, 21, 928, DateTimeKind.Local).AddTicks(7642),
-                            DataNascimento = new DateOnly(1974, 7, 12),
-                            Email = "Teste@teste.com",
+                            DataAtualizacao = new DateTime(2023, 7, 23, 20, 52, 25, 219, DateTimeKind.Local).AddTicks(5243),
+                            DataCadastro = new DateTime(2023, 7, 23, 20, 52, 25, 219, DateTimeKind.Local).AddTicks(5243),
+                            DataNascimento = new DateTime(1974, 7, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testedois@teste.com",
                             Endereco = "Rua da minha casa, 002",
                             Fone = "(27) 99999-2345",
                             Nome = "Segunda Pessoa Cadastrada",
@@ -119,14 +489,82 @@ namespace SisControl.Server.Migrations
                             Cidade = "Guarapari",
                             Complemento = "Apto 003",
                             Cpf = "333.333.333-33",
-                            DataAtualizacao = new DateTime(2023, 7, 14, 10, 56, 21, 928, DateTimeKind.Local).AddTicks(7652),
-                            DataCadastro = new DateTime(2023, 7, 14, 10, 56, 21, 928, DateTimeKind.Local).AddTicks(7652),
-                            DataNascimento = new DateOnly(1997, 9, 29),
-                            Email = "Teste@teste.com",
+                            DataAtualizacao = new DateTime(2023, 7, 23, 20, 52, 25, 219, DateTimeKind.Local).AddTicks(5253),
+                            DataCadastro = new DateTime(2023, 7, 23, 20, 52, 25, 219, DateTimeKind.Local).AddTicks(5253),
+                            DataNascimento = new DateTime(1997, 9, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testetres@teste.com",
                             Endereco = "Rua da minha casa, 003",
                             Fone = "(27) 99999-3456",
                             Nome = "Terceira Pessoa Cadastrada",
                             UF = "ES"
+                        });
+                });
+
+            modelBuilder.Entity("SisControl.Shared.Models.EntidadeUsuario", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ComunidadeId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Nivel")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PessoaId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("EntidadeUsuario");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ComunidadeId = 1,
+                            Nivel = 0,
+                            PessoaId = 1,
+                            Senha = "sem"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ComunidadeId = 2,
+                            Nivel = 0,
+                            PessoaId = 2,
+                            Senha = "sem"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            ComunidadeId = 3,
+                            Nivel = 0,
+                            PessoaId = 1,
+                            Senha = "sem"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            ComunidadeId = 5,
+                            Nivel = 0,
+                            PessoaId = 1,
+                            Senha = "sem"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            ComunidadeId = 8,
+                            Nivel = 0,
+                            PessoaId = 3,
+                            Senha = "sem"
                         });
                 });
 #pragma warning restore 612, 618

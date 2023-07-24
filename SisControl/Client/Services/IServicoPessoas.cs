@@ -1,4 +1,4 @@
-﻿using SisControl.Shared;
+﻿using SisControl.Shared.Models;
 
 namespace SisControl.Client.Services
 {

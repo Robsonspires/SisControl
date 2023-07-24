@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace SisControl.Shared
+namespace SisControl.Shared.Models
 {
     public class EntidadePessoa
     {
@@ -10,8 +10,9 @@ namespace SisControl.Shared
         [RegularExpression(@"^[a-zA-Z''-'\s\p{L}]{5,70}$", ErrorMessage = "Nome é obrigatório, somente letras e com o mínimo de 5.")]
         public string Nome { get; set; } = string.Empty;
 
-        [RegularExpression(@"^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[012])\/(19|20)\d\d$", ErrorMessage = "Data inválida.")]
-        public DateOnly DataNascimento { get; set; }
+        [Required(ErrorMessage = "Data de nascimento é obrigatória.")]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime DataNascimento { get; set; }
 
         [RegularExpression(@"^\d{3}\.\d{3}\.\d{3}-\d{2}$", ErrorMessage = "CPF inválido.")]
         public string Cpf { get; set; } = string.Empty;
@@ -38,4 +39,5 @@ namespace SisControl.Shared
         [Required]
         public DateTime DataAtualizacao { get; set; } = DateTime.Now;
     }
+
 }

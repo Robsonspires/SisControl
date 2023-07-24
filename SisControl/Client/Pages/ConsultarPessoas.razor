@@ -26,7 +26,6 @@
         font-size: 16px;
     }
 
-
     /*.table-striped > tbody > tr > td.selectedRow:nth-child(odd) {
         background-color: #095095;
         color: #f0f0f0;
@@ -76,7 +75,7 @@
         {
             <tr>
                 <td>@lpessoa.Nome</td>
-                <td>@lpessoa.DataNascimento</td>
+                <td>@lpessoa.DataNascimento.ToShortDateString()</td>  @*Para mostrar somente a data.*@
                 <td>@lpessoa.Email</td>
                 <td>@lpessoa.Fone</td>
                 <td>

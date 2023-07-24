@@ -16,11 +16,11 @@
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="#Pessoas" @onclick="ToggleSubMenuPessoas">
-                <span class="oi oi-@Sign" aria-hidden="true"></span> Pessoas
+                <span class="oi oi-@SignPessoa" aria-hidden="true"></span> Pessoas
             </NavLink>
         </div>
 
-        @if (Visible)
+        @if (MenuPessoa)
         {
             <div class="expand mx-3 p-2">
                 <ul>
@@ -38,36 +38,59 @@
             </div>
         }
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="#ProximoMenu">
-                <span class="oi oi-plus" aria-hidden="true"></span> Proximo Menu
+            <NavLink class="nav-link" href="#Lancamentos" @onclick="ToggleSubMenuLancamentos">
+                <span class="oi oi-@SignLancamento" aria-hidden="true"></span> Lançamentos
             </NavLink>
         </div>
 
-        
+        @if (MenuLancamento)
+        {
+            <div class="expand mx-3 p-2">
+                <ul>
+                    <li class="nav-item px-3">
+                        <NavLink class="nav-link" href="consultarLancamentos">
+                            <span class="oi oi-people" aria-hidden="true"></span> Consultar
+                        </NavLink>
+                    </li>
+                    <li class="nav-item px-3">
+                        <NavLink class="nav-link" href="cadastrarPessoa">
+                            <span class="oi oi-person" aria-hidden="true"></span> Cadastrar
+                        </NavLink>
+                    </li>
+                </ul>
+            </div>
+        }
+
     </nav>
 </div>
 
 
 @code {
     private bool collapseNavMenu = true;
-    private bool Visible = false;
-    private string Sign = "plus";
+    private bool MenuPessoa, MenuLancamento = false;
+    private string SignPessoa = "plus";
+    private string SignLancamento = "plus";
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
     private void ToggleNavMenu()
     {
-        @if (Visible)
-        {
-            ToggleSubMenuPessoas();
-        }
+        @if (MenuPessoa) { ToggleSubMenuPessoas(); }
+        @if (MenuLancamento) { ToggleSubMenuLancamentos(); }
+
         collapseNavMenu = !collapseNavMenu;
     }
 
     private void ToggleSubMenuPessoas()
     {
-        Visible = !Visible;
-        Sign = Visible ? "minus" : "plus";
+        MenuPessoa = !MenuPessoa;
+        SignPessoa = MenuPessoa ? "minus" : "plus";
+    }
+
+    private void ToggleSubMenuLancamentos()
+    {
+        MenuLancamento = !MenuLancamento;
+        SignLancamento = MenuLancamento ? "minus" : "plus";
     }
 
 }

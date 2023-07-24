@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "36Hl9hTehy3VGBMOtX0Fi5x8MkjGAS8DSQnp1PUQijCiPJ+6QdJOWpuBmrzUN8GEdxxNZYZVZkiUP2NwGoAV4Q==",
+  "dgSpecHash": "wAOVb1OuC44W1mk4+xo8MyXzqUzqojoPMsIQmKVoyz6/8kMuSHq6dHOOQYUzPQmvsaZFGsCrmWji7bBN6ddw1A==",
   "success": true,
-  "projectFilePath": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Client\\SisControl.Client.csproj",
+  "projectFilePath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\robso\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.7\\microsoft.aspnetcore.authorization.7.0.7.nupkg.sha512",
     "C:\\Users\\robso\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.7\\microsoft.aspnetcore.components.7.0.7.nupkg.sha512",

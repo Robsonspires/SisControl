@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components;
-using SisControl.Shared;
+using SisControl.Shared.Models;
 using System.Net.Http.Json;
 
 namespace SisControl.Client.Services.ServicoPessoas

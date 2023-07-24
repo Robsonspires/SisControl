@@ -1,0 +1,76 @@
+﻿@page "/consultarlancamentos"
+
+@using SisControl.Client.Services;
+@using SisControl.Shared
+@inject IServicoLancamentos ServicoLancamentos
+@inject NavigationManager NavigationManager
+
+<PageTitle> Consultando Lançamentos </PageTitle>
+<h3>Consultando Lançamentos</h3>
+
+<style>
+    .table-striped> thead{
+        font-size:16px;
+        color: #001432;
+        text-align: center;
+        margin-bottom:0;
+        margin-top:22px;
+        border-inline-color : #001432;
+        border-block-color: #001432;
+    }
+
+    .table-striped> tbody{
+        color: #001432;
+        border-inline-color : #001432;
+        border-block-color: #001432;
+        font-size: 16px;
+    }
+</style>
+
+<table class="table table-striped table-hover table-bordered">
+    <thead>
+        <tr>
+            <th>Pessoa</th>
+            <th>Comunidade</th>
+            <th>Ano</th>
+            <th>Janeiro</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tlancamentos in ServicoLancamentos.ListaLancamentos)
+        {
+            <tr>
+                <td>@tlancamentos.PessoaId</td>
+                <td>@tlancamentos.ComunidadeId</td>
+                <td>@tlancamentos.Ano</td>
+                <td>@tlancamentos.Jan</td>
+                <td>
+                    @*<button class="btn btn-primary" title="Editar" @onclick="(() => MostrarLancamento(tlancamentos.Id))">
+                        <i class="oi oi-pencil"></i>
+                    </button>
+                    <button class="btn btn-danger" title="Deletar" @onclick="(() => MostrarLancamentoADeletar(tlancamentos.Id,3))">
+                        <i class="oi oi-trash"></i>
+                    </button>*@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@code {
+    //protected override async Task OnInitializedAsync()
+    //{
+    //    await ServicoLancamentos.BuscarTodosLancamentos();
+    //}
+    //void MostrarLancamento(int id)
+    //{
+    //    NavigationManager.NavigateTo($"/CadastrarPessoa/{id}");
+    //}
+
+    //void MostrarLancamentoADeletar(int id, int action)
+    //{
+    //    NavigationManager.NavigateTo($"/CadastrarPessoa/{id}/{action}");
+    //}
+}

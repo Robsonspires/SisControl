@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SisControl.Server.Data;
-using SisControl.Shared;
+using SisControl.Shared.Models;
 
 namespace SisControl.Server.Controllers
 {

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Shared\\SisControl.Shared.csproj",
+      "projectUniqueName": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
       "projectName": "SisControl.Shared",
-      "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Shared\\SisControl.Shared.csproj",
+      "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
       "packagesPath": "C:\\Users\\robso\\.nuget\\packages\\",
-      "outputPath": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Shared\\obj\\",
+      "outputPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\robso\\AppData\\Roaming\\NuGet\\NuGet.Config",

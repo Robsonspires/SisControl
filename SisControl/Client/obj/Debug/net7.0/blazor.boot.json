@@ -198,15 +198,15 @@
       "mscorlib.dll": "sha256-t1RT9mknsQ54H+sVa1vtMhjv3D8ZjiAGoLzHvuIObPw=",
       "netstandard.dll": "sha256-5SHKPh1PcuJjq4lIo7ymdIyhb9d3++oMAjr46auhUSc=",
       "System.Private.CoreLib.dll": "sha256-eH+XIsCUG5oZ0k8AIzNtRLTCLiV\/8Zv0RFCPMsIkdYY=",
-      "SisControl.Shared.dll": "sha256-6wJfoDC0oyw9tuJAKx5qdX4kVAxjUJGT8EQlBxtpaZc=",
-      "SisControl.Client.dll": "sha256-Y\/mzH0ERvxDAtXBmaHte6JAuPmtV+CNfPN+elynLWvQ="
+      "SisControl.Shared.dll": "sha256-eNGQBLcRhZCI0L9ceL0V2v7nT3NwP9q985a\/FUJITGk=",
+      "SisControl.Client.dll": "sha256-4MjAyh2ssVHdvjBe611wdTPEaCDN6xH9d1xhDrfsCRM="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "SisControl.Shared.pdb": "sha256-DYWumGdItfegF7xx59iixgnH0\/7GcxV\/efCVno4cubY=",
-      "SisControl.Client.pdb": "sha256-CxvWR+BBhp2Bn+75OfaOKrFJA01NOcrznDwrV3zZVsQ="
+      "SisControl.Shared.pdb": "sha256-rtvzRU\/cB86bO6Rblb72BdtN7ZX8GPYbhpcPopWKl1k=",
+      "SisControl.Client.pdb": "sha256-PbVD6GmlIFog8w0m6Hj8QvWmuPGHAx+kc+Ua+R+GHMs="
     },
     "runtime": {
       "dotnet.7.0.9.zs8d8zfg9i.js": "sha256-dUIY5Mz0ozZWqtTfBb7ArJKbdh5IIp8BXeq6UjK4u\/c=",

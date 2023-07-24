@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Server\\SisControl.Server.csproj": {}
+    "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Server\\SisControl.Server.csproj": {}
   },
   "projects": {
-    "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Client\\SisControl.Client.csproj": {
+    "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Client\\SisControl.Client.csproj",
+        "projectUniqueName": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
         "projectName": "SisControl.Client",
-        "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Client\\SisControl.Client.csproj",
+        "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
         "packagesPath": "C:\\Users\\robso\\.nuget\\packages\\",
-        "outputPath": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Client\\obj\\",
+        "outputPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\robso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Shared\\SisControl.Shared.csproj": {
-                "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Shared\\SisControl.Shared.csproj"
+              "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
+                "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Server\\SisControl.Server.csproj": {
+    "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Server\\SisControl.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Server\\SisControl.Server.csproj",
+        "projectUniqueName": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Server\\SisControl.Server.csproj",
         "projectName": "SisControl.Server",
-        "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Server\\SisControl.Server.csproj",
+        "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Server\\SisControl.Server.csproj",
         "packagesPath": "C:\\Users\\robso\\.nuget\\packages\\",
-        "outputPath": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Server\\obj\\",
+        "outputPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\robso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -110,11 +110,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Client\\SisControl.Client.csproj": {
-                "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Client\\SisControl.Client.csproj"
+              "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj": {
+                "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj"
               },
-              "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Shared\\SisControl.Shared.csproj": {
-                "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Shared\\SisControl.Shared.csproj"
+              "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
+                "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj"
               }
             }
           }
@@ -131,27 +131,35 @@
           "dependencies": {
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
-              "version": "[7.0.7, )"
+              "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.7, )"
+              "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.7, )"
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[7.0.7, )"
+              "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.7, )"
+              "version": "[7.0.9, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             }
           },
           "imports": [
@@ -177,14 +185,14 @@
         }
       }
     },
-    "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Shared\\SisControl.Shared.csproj": {
+    "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Shared\\SisControl.Shared.csproj",
+        "projectUniqueName": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
         "projectName": "SisControl.Shared",
-        "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Shared\\SisControl.Shared.csproj",
+        "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
         "packagesPath": "C:\\Users\\robso\\.nuget\\packages\\",
-        "outputPath": "D:\\Usr\\Projetos Blazor\\SisControl_Blue\\SisControl\\Shared\\obj\\",
+        "outputPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\robso\\AppData\\Roaming\\NuGet\\NuGet.Config",
