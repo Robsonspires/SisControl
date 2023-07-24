@@ -22,7 +22,7 @@ namespace SisControl.Server.Controllers
         public async Task<ActionResult<List<EntidadeLancamento>>> BuscarTodosLancamentos()
         {
             // EXEMPLO 01 - select 
-
+            /*
             var lancamentos = _contexto.EntidadeLancamento.Select(el => new
             {
                 el.Id,
@@ -31,9 +31,9 @@ namespace SisControl.Server.Controllers
                 el.PessoaId,
                 Pessoa = pNome.Nome
             });
+            */
 
-
-            /* EXEMPLO 02 - com linq 
+            /* EXEMPLO 02 - com linq  */
             var lancamentos = from el in _contexto.EntidadeLancamento
                               join ec in _contexto.EntidadeComunidade on el.ComunidadeId equals ec.Id
                               join ep in _contexto.EntidadePessoa on el.PessoaId equals ep.Id
@@ -44,7 +44,7 @@ namespace SisControl.Server.Controllers
                                   Comunidade = ec.Nome,
                                   el.PessoaId,
                                   Pessoa = ep.Nome
-                              }; */
+                              }; 
 
             //var lancamentos = await _contexto.EntidadeLancamento.ToListAsync();
             return Ok(lancamentos);
