@@ -169,7 +169,7 @@ namespace SisControl.Server.Data
                },
                new EntidadeComunidade
                {
-                   Id = 9,
+                   Id = 8,
                    Nome = "São João Batista",
                    DataFundacao = DateTime.Parse("30/08/2016"),
                    Cnpj = "27.054.162/009620",
@@ -184,7 +184,7 @@ namespace SisControl.Server.Data
                },
                new EntidadeComunidade
                {
-                   Id = 10,
+                   Id = 9,
                    Nome = "São Judas Tadeu",
                    DataFundacao = DateTime.Parse("30/08/2016"),
                    Cnpj = "27.054.162/009620",
@@ -199,7 +199,7 @@ namespace SisControl.Server.Data
                },
                new EntidadeComunidade
                {
-                   Id = 11,
+                   Id = 10,
                    Nome = "São Sebastião",
                    DataFundacao = DateTime.Parse("30/08/2016"),
                    Cnpj = "27.054.162/009620",
@@ -250,9 +250,9 @@ namespace SisControl.Server.Data
             modelBuilder.Entity<EntidadeLancamento>().HasData(
                 new EntidadeLancamento
                 {
-                    Id=1,
-                    PessoaId=1,
-                    ComunidadeId=1,
+                    Id = 1,
+                    PessoaId = 1,
+                    ComunidadeId = 1,
                     Ano = 2023,
                     Jan = true,
                     Fev = true,
@@ -343,11 +343,11 @@ namespace SisControl.Server.Data
                     Nov = false,
                     Dez = false
                 }
-                );
+                ) ;
         }
-        public DbSet<EntidadePessoa> EntidadePessoa { get; set; }
-        public DbSet<EntidadeComunidade> EntidadeComunidade { get; set; }
-        public DbSet<EntidadeLancamento> EntidadeLancamento { get; set; }
-        public DbSet<EntidadeUsuario> EntidadeUsuario { get; set; }
+        public DbSet<EntidadePessoa> EntidadePessoas { get; set; }
+        public DbSet<EntidadeComunidade> EntidadeComunidades { get; set; }
+        public DbSet<EntidadeLancamento> EntidadeLancamentos { get; set; }
+        public DbSet<EntidadeUsuario> EntidadeUsuarios { get; set; }
     }
 }

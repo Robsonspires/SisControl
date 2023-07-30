@@ -7,37 +7,27 @@ namespace SisControl.Shared.Models
         [Key]
         public int Id { get; set; }
 
-        [RegularExpression(@"^[a-zA-Z''-'\s\p{L}]{5,70}$", ErrorMessage = "Nome é obrigatório, somente letras e com o mínimo de 5.")]
+        [Required(ErrorMessage = "O Nome é obrigatório.")]
         public string Nome { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Data de nascimento é obrigatória.")]
         [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
         public DateTime DataNascimento { get; set; }
-
-        [RegularExpression(@"^\d{3}\.\d{3}\.\d{3}-\d{2}$", ErrorMessage = "CPF inválido.")]
         public string Cpf { get; set; } = string.Empty;
-
-        [RegularExpression(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$", ErrorMessage = "Email inválido.")]
         public string Email { get; set; } = string.Empty;
-
-        [RegularExpression(@"^\(\d{2}\)\s\d{4,5}-\d{4}$", ErrorMessage = "Telefone inválido.")]
         public string Fone { get; set; } = string.Empty;
-
-        [RegularExpression(@"^\d{5}-\d{3}$", ErrorMessage = "CEP inválido.")]
         public string CEP { get; set; } = string.Empty;
-
         public string Endereco { get; set; } = string.Empty;
         public string Complemento { get; set; } = string.Empty;
         public string Bairro { get; set; } = string.Empty;
         public string Cidade { get; set; } = string.Empty;
-
-        [RegularExpression(@"^[A-Z]{2,2}$", ErrorMessage = "Estado inválido.")]
         public string UF { get; set; } = string.Empty;
 
         [Required]
         public DateTime DataCadastro { get; set; } = DateTime.Now;
         [Required]
         public DateTime DataAtualizacao { get; set; } = DateTime.Now;
+
     }
 
 }

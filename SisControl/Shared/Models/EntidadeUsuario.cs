@@ -22,8 +22,3 @@ namespace SisControl.Shared.Models
         public int Nivel { get; set; } = 0;
     }
 }
-
-// idéia para usar
-//var usuario = context.EntidadeUsuario.Include(u => u.EntidadePessoa).Include(u => u.EntudadeComunidade).ToList();
-
-

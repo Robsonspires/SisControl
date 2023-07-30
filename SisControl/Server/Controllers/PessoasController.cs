@@ -19,14 +19,14 @@ namespace SisControl.Server.Controllers
         [HttpGet]
         public async Task<ActionResult<List<EntidadePessoa>>> BuscarTodasPessoas()
         {
-            var pessoas = await _contexto.EntidadePessoa.ToListAsync();
+            var pessoas = await _contexto.EntidadePessoas.ToListAsync();
             return Ok(pessoas);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<EntidadePessoa>> BuscaPessoa(int id)
         {
-            var pessoa = await _contexto.EntidadePessoa
+            var pessoa = await _contexto.EntidadePessoas
                     .FirstOrDefaultAsync(x => x.Id == id);
             if (pessoa == null)
             {
@@ -38,7 +38,7 @@ namespace SisControl.Server.Controllers
         [HttpPost]
         public async Task<ActionResult<List<EntidadePessoa>>> CreateCadastrarPessoa(EntidadePessoa pessoa)
         {
-            _contexto.EntidadePessoa.Add(pessoa);
+            _contexto.EntidadePessoas.Add(pessoa);
             await _contexto.SaveChangesAsync();
             return Ok(await BuscarTodasPessoas());
         }
@@ -46,7 +46,7 @@ namespace SisControl.Server.Controllers
         [HttpPut("{id}")]
         public async Task<ActionResult<List<EntidadePessoa>>> GravaPessoa(EntidadePessoa pessoa, int id)
         {
-            var dbPessoa = await _contexto.EntidadePessoa
+            var dbPessoa = await _contexto.EntidadePessoas
                 .FirstOrDefaultAsync(x => x.Id == id);
             if (dbPessoa == null)
                 return NotFound("Heroi não encontrado");
@@ -71,7 +71,7 @@ namespace SisControl.Server.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<List<EntidadePessoa>>> DeletarPessoa(int id)
         {
-            var dbPessoa = await _contexto.EntidadePessoa
+            var dbPessoa = await _contexto.EntidadePessoas
                 .FirstOrDefaultAsync(x => x.Id == id);
             if (dbPessoa == null)
                 return NotFound("Heroi não encontrado");

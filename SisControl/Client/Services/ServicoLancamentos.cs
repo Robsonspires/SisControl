@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Components;
+using SisControl.Client.Services.Dtos;
 using SisControl.Shared.Models;
 using System.Net.Http.Json;
+using System.Runtime;
 
 namespace SisControl.Client.Services.ServicoLancamentos
 {
@@ -15,62 +17,14 @@ namespace SisControl.Client.Services.ServicoLancamentos
             _http = http;
         }
 
-        public List<EntidadeLancamento> ListaLancamentos { get; set; } = new List<EntidadeLancamento>();
+        public List<LancamentoDto> LancamentoDtos { get; set; } = new List<LancamentoDto>();
 
         public async Task BuscarTodosLancamentos()
         {
-            var result = await _http.GetFromJsonAsync<List<EntidadeLancamento>>("api/lancamentos");
+            var result = await _http.GetFromJsonAsync<List<LancamentoDto>>("api/lancamentos");
             if (result != null)
-                ListaLancamentos = result;
+                LancamentoDtos = result;
         }
-
-        //public async Task<EntidadePessoa> BuscaPessoa(int id)
-        //{
-        //    var result = await _http.GetFromJsonAsync<EntidadePessoa>($"api/pessoas/{id}");
-        //    if (result != null)
-        //        return result;
-        //    throw new Exception("Não foi possível encontrar o Heroi");
-        //}
-
-        //public async Task CadastraPessoa(EntidadePessoa Pessoa)
-        //{
-        //    var result = await _http.PostAsJsonAsync("api/pessoas", Pessoa);
-        //    //if (result != null)
-        //    //{
-        //    //    await SetarPessoas(result);
-        //    //}
-        //    _navigationManager.NavigateTo("/consultarpessoas");
-
-        //}
-
-        //public async Task DeletarPessoa(int id)
-        //{
-        //    var result = await _http.DeleteAsync($"api/pessoas/{id}");
-        //    //await SetarPessoas(result);
-        //    _navigationManager.NavigateTo("/consultarpessoas");
-        //}
-
-        //public async Task GravaPessoa(EntidadePessoa Pessoa)
-        //{
-        //    var result = await _http.PutAsJsonAsync($"api/pessoas/{Pessoa.Id}", Pessoa);
-        //    //await SetarPessoas(result);
-        //    _navigationManager.NavigateTo("/consultarpessoas");
-        //}
-
-        //async Task IServicoLancamentos.CancelarAcao()
-        //{
-        //    var result = await _http.GetFromJsonAsync<List<EntidadePessoa>>("api/pessoas");
-        //    if (result != null)
-        //        ListaPessoas = result;
-        //    _navigationManager.NavigateTo("/consultarpessoas");
-        //}
-
-        //private async Task SetarPessoas(HttpResponseMessage result)
-        //{
-        //    var response = await result.Content.ReadFromJsonAsync<List<EntidadePessoa>>();
-        //    ListaPessoas = response;
-        //    _navigationManager.NavigateTo("/consultarpessoas");
-        //}
 
     }
 }

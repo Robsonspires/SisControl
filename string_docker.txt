@@ -1,0 +1,3 @@
+"ConnectionStrings": {
+    "DataBase": "Data Source=localhost,1433;Database=DB_SisControl;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False; User ID=SA;Password=Alegnasor@100"
+  },

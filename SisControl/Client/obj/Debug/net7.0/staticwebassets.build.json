@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W0vM3xMkNPQXR5uK7/BkPwgDLmCmxzzoXF6dvHeNIBg=",
+  "Hash": "dlfwpFYntyubcqo3syLtEocuplqURGoNI3VyV6LFZWo=",
   "Source": "SisControl.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,7 +10,7 @@
     {
       "Name": "SisControl.Client\\wwwroot",
       "Source": "SisControl.Client",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "C:\\Users\\robso\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.9\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "SisControl.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\robso\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.9\\runtimes\\browser-wasm\\native\\icudt.dat"
+    },
+    {
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
@@ -151,23 +168,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\robso\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.9\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
-    },
-    {
-      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "SisControl.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\robso\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.9\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -3485,7 +3485,7 @@
       "OriginalItemSpec": "C:\\Users\\robso\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.9\\runtimes\\browser-wasm\\lib\\net7.0\\WindowsBase.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\+CUbXvef.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\+CUbXvef.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3502,7 +3502,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.MemoryMappedFiles.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\+DkUOYzh.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\+DkUOYzh.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3519,7 +3519,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Mail.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\+gVM4auY.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\+gVM4auY.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3536,7 +3536,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.ComponentModel.TypeConverter.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\+P7pmvs9.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\+P7pmvs9.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3553,7 +3553,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Cryptography.Algorithms.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\+Qj6MNi8.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\+Qj6MNi8.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3570,7 +3570,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0fRObHkT.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0fRObHkT.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3587,7 +3587,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.TextWriterTraceListener.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0iVLIQKi.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0iVLIQKi.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3604,7 +3604,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Resources.ResourceManager.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0lHDr9FD.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0lHDr9FD.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3621,7 +3621,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Memory.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0NOOOIGP.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0NOOOIGP.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3638,7 +3638,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\SisControl.Client.pdb"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0ObbAlB2.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0ObbAlB2.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3655,7 +3655,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0OSIhAwj.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0OSIhAwj.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3672,7 +3672,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0u4cXGss.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0u4cXGss.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3689,7 +3689,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Private.DataContractSerialization.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0YsMPJ0+.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0YsMPJ0+.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3706,7 +3706,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.Compression.Brotli.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0Z8Gfiq8.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\0Z8Gfiq8.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3723,7 +3723,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Collections.Immutable.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\159MY+DY.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\159MY+DY.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3740,7 +3740,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Principal.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\1lQ+ZOId.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\1lQ+ZOId.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3757,7 +3757,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Xml.XmlDocument.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\1NAYl1tU.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\1NAYl1tU.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3774,7 +3774,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Security.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\1xpNW2PW.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\1xpNW2PW.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3791,7 +3791,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Cryptography.Primitives.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\2Yw+Fhmu.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\2Yw+Fhmu.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3808,7 +3808,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Handles.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\3bKdVfNq.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\3bKdVfNq.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3825,7 +3825,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.ServiceProcess.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\3RPuHrh5.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\3RPuHrh5.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3842,7 +3842,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.UnmanagedMemoryStream.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\3W0Bmd+o.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\3W0Bmd+o.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3859,7 +3859,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\dotnet.7.0.9.zs8d8zfg9i.js"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\3Xus1vDR.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\3Xus1vDR.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3876,7 +3876,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Formats.Tar.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\3z9d0dPA.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\3z9d0dPA.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3893,7 +3893,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\4ES2JTHV.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\4ES2JTHV.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3910,7 +3910,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Reflection.Emit.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\4qWZ3UmG.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\4qWZ3UmG.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3927,7 +3927,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.Compression.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\5KC9b5+3.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\5KC9b5+3.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3944,7 +3944,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.Contracts.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\5vYkiy0f.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\5vYkiy0f.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3961,7 +3961,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.AppContext.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\6OEffHEk.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\6OEffHEk.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3978,7 +3978,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.ComponentModel.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\72EVGaol.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\72EVGaol.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -3995,7 +3995,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\9eTwlM0U.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\9eTwlM0U.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4012,7 +4012,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.Compression.FileSystem.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\9SBWuarB.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\9SBWuarB.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4029,7 +4029,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.Pipes.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\AbAZHFHp.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\AbAZHFHp.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4046,7 +4046,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Private.Uri.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\atJidLv4.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\atJidLv4.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4063,7 +4063,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.Tracing.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ATp1fud1.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ATp1fud1.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4080,7 +4080,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.Unsafe.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\azGbBFP3.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\azGbBFP3.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4097,7 +4097,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\B25ZZREr.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\B25ZZREr.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4114,7 +4114,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.AccessControl.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\bFHn7SUN.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\bFHn7SUN.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4131,7 +4131,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Console.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\BflZpaY1.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\BflZpaY1.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4148,7 +4148,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Principal.Windows.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\bhDT6H+M.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\bhDT6H+M.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4165,7 +4165,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.IsolatedStorage.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\bjkfoip8.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\bjkfoip8.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4182,7 +4182,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Serialization.Xml.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\bQ3hmeRd.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\bQ3hmeRd.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4199,7 +4199,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\BqbYP0au.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\BqbYP0au.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4216,7 +4216,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\WindowsBase.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\btkwjsj7.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\btkwjsj7.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4233,7 +4233,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.WebHeaderCollection.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\c5RUwdbJ.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\c5RUwdbJ.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4250,7 +4250,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Xml.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\cdNNgVLg.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\cdNNgVLg.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4267,7 +4267,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.InteropServices.JavaScript.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\CKUPaG17.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\CKUPaG17.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4284,7 +4284,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.FileExtensions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\d06ROEnI.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\d06ROEnI.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4301,7 +4301,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Resources.Reader.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\d1fuY0Vo.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\d1fuY0Vo.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4318,7 +4318,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Loader.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\D59KzQTK.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\D59KzQTK.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4335,7 +4335,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Win32.Registry.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\dbE0VvHK.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\dbE0VvHK.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4352,7 +4352,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Xml.Serialization.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\de9do3hn.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\de9do3hn.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4369,7 +4369,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.FileSystem.Watcher.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\dN+t7oED.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\dN+t7oED.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4386,7 +4386,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\DS3Wcf0M.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\DS3Wcf0M.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4403,7 +4403,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Reflection.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\dt3ECtQa.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\dt3ECtQa.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4420,7 +4420,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.CSharp.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\e9CM+7lT.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\e9CM+7lT.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4437,7 +4437,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Numerics.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ECgyzvBR.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ECgyzvBR.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4454,7 +4454,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Cryptography.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Ei3uLuEx.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Ei3uLuEx.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4471,7 +4471,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.ComponentModel.EventBasedAsync.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Elm39Gav.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Elm39Gav.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4488,7 +4488,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.Thread.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\EOPT+WEY.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\EOPT+WEY.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4505,7 +4505,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.TraceSource.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\eRLthFIe.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\eRLthFIe.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4522,7 +4522,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Reflection.Metadata.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\exvkElgs.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\exvkElgs.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4539,7 +4539,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\f09OIr+x.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\f09OIr+x.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4556,7 +4556,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Globalization.Calendars.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\f0CPsAqF.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\f0CPsAqF.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4573,7 +4573,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Reflection.Emit.ILGeneration.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\F31RsvKW.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\F31RsvKW.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4590,7 +4590,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Cryptography.OpenSsl.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\fioIZeG7.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\fioIZeG7.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4607,7 +4607,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Windows.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\frYTRA8Y.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\frYTRA8Y.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4624,7 +4624,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.Tasks.Extensions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\fZyzvEMT.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\fZyzvEMT.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4641,7 +4641,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.Encoding.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\g2dTFSgr.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\g2dTFSgr.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4658,7 +4658,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Cryptography.Csp.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\g36M7OMT.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\g36M7OMT.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4675,7 +4675,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Reflection.Primitives.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\GGCyINVR.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\GGCyINVR.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4692,7 +4692,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\gITgg4B2.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\gITgg4B2.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4709,7 +4709,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.InteropServices.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\GN+I0PV7.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\GN+I0PV7.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4726,7 +4726,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.FileSystem.Primitives.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\gOEypbpI.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\gOEypbpI.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4743,7 +4743,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\netstandard.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\gTfQRBEd.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\gTfQRBEd.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4760,7 +4760,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Private.CoreLib.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\h3QN9RdU.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\h3QN9RdU.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4777,7 +4777,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\h7+VpXQ6.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\h7+VpXQ6.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4794,7 +4794,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\hc+f+IFX.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\hc+f+IFX.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4811,7 +4811,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Numerics.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\HHOxTgsA.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\HHOxTgsA.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4828,7 +4828,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.HttpListener.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\hI8DMhny.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\hI8DMhny.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4845,7 +4845,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Reflection.Extensions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\hiym85o4.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\hiym85o4.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4862,7 +4862,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Xml.XPath.XDocument.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\HxJqFjYI.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\HxJqFjYI.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4879,7 +4879,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.Encoding.Extensions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\HYwY82Sv.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\HYwY82Sv.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4896,7 +4896,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Xml.XmlSerializer.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\i+nk1w56.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\i+nk1w56.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4913,7 +4913,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Json.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Ig0rgkeT.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Ig0rgkeT.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4930,7 +4930,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\IgAtHiA1.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\IgAtHiA1.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4947,7 +4947,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Core.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\IT1exQcF.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\IT1exQcF.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4964,7 +4964,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Collections.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\IZw5mbX0.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\IZw5mbX0.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4981,7 +4981,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Serialization.Primitives.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\j0xCnjjv.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\j0xCnjjv.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -4998,7 +4998,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Globalization.Extensions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\jdmp4Stm.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\jdmp4Stm.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5015,7 +5015,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.WebSockets.Client.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\JiJ42HDU.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\JiJ42HDU.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5032,7 +5032,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\dotnet.wasm"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\JQG+7v68.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\JQG+7v68.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5049,7 +5049,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.InteropServices.RuntimeInformation.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\JTcFTgSM.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\JTcFTgSM.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5066,7 +5066,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\SisControl.Shared.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\K1ISEpv1.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\K1ISEpv1.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5083,7 +5083,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Private.Xml.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\KBRnRdXE.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\KBRnRdXE.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5100,7 +5100,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.DiagnosticSource.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\KdwU+574.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\KdwU+574.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5117,7 +5117,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.SecureString.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Kfg4sQDa.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Kfg4sQDa.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5134,7 +5134,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Ping.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\KNmJl87T.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\KNmJl87T.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5151,7 +5151,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Numerics.Vectors.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\lEk2v1vF.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\lEk2v1vF.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5168,7 +5168,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Cryptography.X509Certificates.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\lIwxwcSn.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\lIwxwcSn.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5185,7 +5185,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Data.DataSetExtensions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\LJQiDC5k.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\LJQiDC5k.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5202,7 +5202,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\LMh3sqip.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\LMh3sqip.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5219,7 +5219,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Extensions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\LypUxzXp.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\LypUxzXp.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5236,7 +5236,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Md34q4YD.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Md34q4YD.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5253,7 +5253,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Quic.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\MH26mE5A.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\MH26mE5A.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5270,7 +5270,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.Json.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Mk2I8mUK.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Mk2I8mUK.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5287,7 +5287,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Physical.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\mLWuiH0E.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\mLWuiH0E.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5304,7 +5304,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.Encodings.Web.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\MPCetUEK.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\MPCetUEK.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5321,7 +5321,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Dynamic.Runtime.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Mu3unySu.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Mu3unySu.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5338,7 +5338,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.WebSockets.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\MyPzFjDQ.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\MyPzFjDQ.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5355,7 +5355,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.Tools.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\n5n+EayT.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\n5n+EayT.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5372,7 +5372,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Http.Json.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\n6nRs1RT.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\n6nRs1RT.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5389,7 +5389,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Reflection.DispatchProxy.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ncLZVUH7.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ncLZVUH7.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5406,7 +5406,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.Overlapped.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\nGcG1IE0.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\nGcG1IE0.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5423,7 +5423,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Formats.Asn1.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\nm+CZxd6.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\nm+CZxd6.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5440,7 +5440,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Reflection.Emit.Lightweight.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\NMSRqy+F.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\NMSRqy+F.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5457,7 +5457,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\mscorlib.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\NsDXqtB9.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\NsDXqtB9.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5474,7 +5474,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\NsgPozFY.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\NsgPozFY.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5491,7 +5491,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.ValueTuple.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\o+5xeBFR.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\o+5xeBFR.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5508,7 +5508,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.Encoding.CodePages.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\o2Nmvkbr.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\o2Nmvkbr.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5525,7 +5525,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Xml.Linq.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\O3TWiSip.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\O3TWiSip.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5542,7 +5542,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.VisualBasic.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\O8G3w4FA.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\O8G3w4FA.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5559,7 +5559,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Claims.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\OErFU8c9.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\OErFU8c9.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5576,7 +5576,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.ObjectModel.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\OXcGgIRd.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\OXcGgIRd.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5593,7 +5593,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Data.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\peVDEEwi.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\peVDEEwi.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5610,7 +5610,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.FileVersionInfo.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\PjUpG04h.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\PjUpG04h.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5627,7 +5627,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Sockets.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\plGN4LGc.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\plGN4LGc.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5644,7 +5644,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\dotnet.timezones.blat"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\plIxtVHx.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\plIxtVHx.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5661,7 +5661,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\PpTYBWpV.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\PpTYBWpV.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5678,7 +5678,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.Compression.ZipFile.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\PqvrYNBw.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\PqvrYNBw.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5695,7 +5695,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Configuration.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ptgkHclC.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ptgkHclC.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5712,7 +5712,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Binder.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\PxknrXIZ.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\PxknrXIZ.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5729,7 +5729,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\pY+nl6Xu.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\pY+nl6Xu.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5746,7 +5746,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Intrinsics.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\q1R9utuJ.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\q1R9utuJ.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5763,7 +5763,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Collections.Specialized.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\q49i3Jd8.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\q49i3Jd8.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5780,7 +5780,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.Tasks.Dataflow.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\qlZjE3b+.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\qlZjE3b+.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5797,7 +5797,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.NameResolution.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\qmCJRw0i.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\qmCJRw0i.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5814,7 +5814,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Resources.Writer.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\QUDVGUDy.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\QUDVGUDy.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5831,7 +5831,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Data.Common.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\QYbdN6ZQ.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\QYbdN6ZQ.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5848,7 +5848,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\SisControl.Client.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\r1UCkEY1.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\r1UCkEY1.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5865,7 +5865,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Linq.Expressions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\RAFX6Hqb.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\RAFX6Hqb.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5882,7 +5882,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\rdncDtvP.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\rdncDtvP.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5899,7 +5899,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.WebProxy.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\RdWCzILv.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\RdWCzILv.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5916,7 +5916,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\rh6+6u01.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\rh6+6u01.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5933,7 +5933,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Drawing.Primitives.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\rPRvkfFv.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\rPRvkfFv.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5950,7 +5950,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.NetworkInformation.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\rq+7j9zm.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\rq+7j9zm.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5967,7 +5967,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Private.Xml.Linq.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\RQx2j1RX.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\RQx2j1RX.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -5984,7 +5984,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Primitives.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\S++pVnoO.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\S++pVnoO.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6001,7 +6001,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.FileSystem.AccessControl.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\S2yXNFAK.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\S2yXNFAK.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6018,7 +6018,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.Tasks.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\s3sB1+jN.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\s3sB1+jN.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6035,7 +6035,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.Channels.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\sCO1TV7M.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\sCO1TV7M.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6052,7 +6052,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Xml.XPath.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\sdbVLnip.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\sdbVLnip.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6069,7 +6069,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Collections.NonGeneric.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\SKYVHUqz.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\SKYVHUqz.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6086,7 +6086,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.ComponentModel.DataAnnotations.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\SN7swchY.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\SN7swchY.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6103,7 +6103,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Reflection.TypeExtensions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\sOSwPYrm.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\sOSwPYrm.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6120,7 +6120,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.Debug.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\srpavbUR.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\srpavbUR.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6137,7 +6137,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Svtr1guo.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Svtr1guo.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6154,7 +6154,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Serialization.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\sz+0SeOR.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\sz+0SeOR.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6171,7 +6171,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\t3A3soTg.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\t3A3soTg.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6188,7 +6188,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Transactions.Local.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\TLh1TPvM.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\TLh1TPvM.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6205,7 +6205,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.Process.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\tNqilQxP.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\tNqilQxP.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6222,7 +6222,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Drawing.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\tonyIYv+.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\tonyIYv+.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6239,7 +6239,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.ServicePoint.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\u445YFLl.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\u445YFLl.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6256,7 +6256,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Cryptography.Cng.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\U7XMvHAq.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\U7XMvHAq.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6273,7 +6273,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\uIJrJTE1.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\uIJrJTE1.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6290,7 +6290,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Collections.Concurrent.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\UleYUh97.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\UleYUh97.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6307,7 +6307,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Web.HttpUtility.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\uM1U3hiu.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\uM1U3hiu.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6324,7 +6324,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Transactions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\urc50SpC.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\urc50SpC.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6341,7 +6341,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\UrgqAKr4.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\UrgqAKr4.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6358,7 +6358,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Xml.ReaderWriter.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\US0LeKOJ.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\US0LeKOJ.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6375,7 +6375,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Linq.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\v+qOt0eG.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\v+qOt0eG.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6392,7 +6392,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Serialization.Formatters.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\V3U6TFIa.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\V3U6TFIa.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6409,7 +6409,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.Pipes.AccessControl.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\v4umZ+zG.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\v4umZ+zG.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6426,7 +6426,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\VfdPb+zV.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\VfdPb+zV.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6443,7 +6443,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.FileSystem.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Vprjc3tx.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Vprjc3tx.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6460,7 +6460,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.WebClient.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\VUTFtzkw.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\VUTFtzkw.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6477,7 +6477,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.Timer.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\VvmdQfXt.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\VvmdQfXt.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6494,7 +6494,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.VisualBasic.Core.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\vx3u+k4J.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\vx3u+k4J.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6511,7 +6511,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.VisualC.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\vy4r4GQb.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\vy4r4GQb.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6528,7 +6528,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.ThreadPool.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\w8FTLphw.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\w8FTLphw.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6545,7 +6545,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Serialization.Json.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\wD7unx0v.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\wD7unx0v.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6562,7 +6562,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\wyDHT9Ub.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\wyDHT9Ub.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6579,7 +6579,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Linq.Queryable.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\X0YCzbBN.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\X0YCzbBN.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6596,7 +6596,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.ServiceModel.Web.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\x10vC7jp.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\x10vC7jp.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6613,7 +6613,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Linq.Parallel.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\x5zN9WmY.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\x5zN9WmY.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6630,7 +6630,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.StackTrace.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\x9D6XhqS.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\x9D6XhqS.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6647,7 +6647,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Win32.Primitives.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\XdX9qC9O.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\XdX9qC9O.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6664,7 +6664,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.ComponentModel.Primitives.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\xFXJFoqz.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\xFXJFoqz.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6681,7 +6681,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.RegularExpressions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\XJzo+0GP.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\XJzo+0GP.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6698,7 +6698,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Xk2Nvf+g.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Xk2Nvf+g.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6715,7 +6715,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Xml.XDocument.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\XLS5Sop2.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\XLS5Sop2.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6732,7 +6732,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\XqB7qp7q.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\XqB7qp7q.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6749,7 +6749,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Globalization.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\y1Lh9gkI.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\y1Lh9gkI.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6766,7 +6766,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Security.Cryptography.Encoding.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\yinPgwAa.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\yinPgwAa.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6783,7 +6783,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Z0sEdnR+.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\Z0sEdnR+.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6800,7 +6800,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Http.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ZAFj8FpO.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ZAFj8FpO.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6817,7 +6817,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.IO.FileSystem.DriveInfo.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\zCV8t7eM.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\zCV8t7eM.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6834,7 +6834,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ZDgnFZ70.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ZDgnFZ70.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6851,7 +6851,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\SisControl.Shared.pdb"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\zeVBK6OR.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\zeVBK6OR.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6868,7 +6868,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.ComponentModel.Annotations.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ZHdAxfg8.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ZHdAxfg8.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6885,7 +6885,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Buffers.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ZvlUGXOB.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ZvlUGXOB.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6902,7 +6902,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.Tasks.Parallel.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\zvwQkuDp.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\zvwQkuDp.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6919,7 +6919,7 @@
       "OriginalItemSpec": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Web.dll"
     },
     {
-      "Identity": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ZXWJQ48+.gz",
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\Debug\\net7.0\\build-gz\\ZXWJQ48+.gz",
       "SourceId": "SisControl.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
@@ -6973,7 +6973,7 @@
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\app.css",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app.css",
       "AssetKind": "All",
@@ -6990,7 +6990,7 @@
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -7007,7 +7007,7 @@
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -7021,27 +7021,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "SisControl.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
-    },
-    {
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -7058,7 +7041,7 @@
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -7075,7 +7058,7 @@
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -7092,7 +7075,7 @@
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -7109,7 +7092,7 @@
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -7126,7 +7109,7 @@
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -7140,10 +7123,27 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
+      "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "SisControl.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -7160,7 +7160,7 @@
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -7177,7 +7177,7 @@
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\favicon.png",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -7194,7 +7194,7 @@
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\icon-192.png",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "icon-192.png",
       "AssetKind": "All",
@@ -7211,7 +7211,7 @@
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\img\\Ofir1.png",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "img/Ofir1.png",
       "AssetKind": "All",
@@ -7228,7 +7228,7 @@
       "Identity": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\index.html",
       "SourceId": "SisControl.Client",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
+      "ContentRoot": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index.html",
       "AssetKind": "All",

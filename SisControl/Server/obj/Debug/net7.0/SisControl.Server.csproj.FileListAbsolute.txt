@@ -215,14 +215,6 @@ C:\Usr\SisControl\SisControl\Server\obj\Debug\net7.0\refint\SisControl.Server.dl
 C:\Usr\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.pdb
 C:\Usr\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.genruntimeconfig.cache
 C:\Usr\SisControl\SisControl\Server\obj\Debug\net7.0\ref\SisControl.Server.dll
-D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.csproj.AssemblyReference.cache
-D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.GeneratedMSBuildEditorConfig.editorconfig
-D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.AssemblyInfoInputs.cache
-D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.AssemblyInfo.cs
-D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.csproj.CoreCompileInputs.cache
-D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.MvcApplicationPartsAssemblyInfo.cache
-D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.RazorAssemblyInfo.cache
-D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.RazorAssemblyInfo.cs
 D:\Usr\Projetos Blazor\SisControl\SisControl\Server\bin\Debug\net7.0\SisControl.Client.staticwebassets.runtime.json
 D:\Usr\Projetos Blazor\SisControl\SisControl\Server\bin\Debug\net7.0\appsettings.Development.json
 D:\Usr\Projetos Blazor\SisControl\SisControl\Server\bin\Debug\net7.0\appsettings.json
@@ -327,6 +319,14 @@ D:\Usr\Projetos Blazor\SisControl\SisControl\Server\bin\Debug\net7.0\SisControl.
 D:\Usr\Projetos Blazor\SisControl\SisControl\Server\bin\Debug\net7.0\SisControl.Shared.dll
 D:\Usr\Projetos Blazor\SisControl\SisControl\Server\bin\Debug\net7.0\SisControl.Client.pdb
 D:\Usr\Projetos Blazor\SisControl\SisControl\Server\bin\Debug\net7.0\SisControl.Shared.pdb
+D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.csproj.AssemblyReference.cache
+D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.AssemblyInfoInputs.cache
+D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.AssemblyInfo.cs
+D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.csproj.CoreCompileInputs.cache
+D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.MvcApplicationPartsAssemblyInfo.cache
+D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.RazorAssemblyInfo.cache
+D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\SisControl.Server.RazorAssemblyInfo.cs
 D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\staticwebassets\msbuild.SisControl.Server.Microsoft.AspNetCore.StaticWebAssets.props
 D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.SisControl.Server.props
 D:\Usr\Projetos Blazor\SisControl\SisControl\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.SisControl.Server.props

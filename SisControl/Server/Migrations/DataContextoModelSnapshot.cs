@@ -75,7 +75,7 @@ namespace SisControl.Server.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("EntidadeComunidade");
+                    b.ToTable("EntidadeComunidades");
 
                     b.HasData(
                         new
@@ -185,7 +185,7 @@ namespace SisControl.Server.Migrations
                         },
                         new
                         {
-                            Id = 9,
+                            Id = 8,
                             Bairro = "Prainha de Olaria",
                             CEP = "29202-515",
                             Cidade = "Guarapari",
@@ -200,7 +200,7 @@ namespace SisControl.Server.Migrations
                         },
                         new
                         {
-                            Id = 10,
+                            Id = 9,
                             Bairro = "Olaria",
                             CEP = "29202-515",
                             Cidade = "Guarapari",
@@ -215,7 +215,7 @@ namespace SisControl.Server.Migrations
                         },
                         new
                         {
-                            Id = 11,
+                            Id = 10,
                             Bairro = "Coroado",
                             CEP = "29202-515",
                             Cidade = "Guarapari",
@@ -247,7 +247,8 @@ namespace SisControl.Server.Migrations
                     b.Property<int>("Ano")
                         .HasColumnType("int");
 
-                    b.Property<int>("ComunidadeId")
+                    b.Property<int?>("ComunidadeId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<bool>("Dez")
@@ -277,7 +278,8 @@ namespace SisControl.Server.Migrations
                     b.Property<bool>("Out")
                         .HasColumnType("bit");
 
-                    b.Property<int>("PessoaId")
+                    b.Property<int?>("PessoaId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<bool>("Set")
@@ -285,7 +287,7 @@ namespace SisControl.Server.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("EntidadeLancamento");
+                    b.ToTable("EntidadeLancamentos");
 
                     b.HasData(
                         new
@@ -444,7 +446,7 @@ namespace SisControl.Server.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("EntidadePessoa");
+                    b.ToTable("EntidadePessoas");
 
                     b.HasData(
                         new
@@ -455,8 +457,8 @@ namespace SisControl.Server.Migrations
                             Cidade = "Guarapari",
                             Complemento = "Apto 001",
                             Cpf = "111.111.111-11",
-                            DataAtualizacao = new DateTime(2023, 7, 24, 8, 30, 58, 156, DateTimeKind.Local).AddTicks(2320),
-                            DataCadastro = new DateTime(2023, 7, 24, 8, 30, 58, 156, DateTimeKind.Local).AddTicks(2304),
+                            DataAtualizacao = new DateTime(2023, 7, 30, 16, 52, 25, 885, DateTimeKind.Local).AddTicks(5389),
+                            DataCadastro = new DateTime(2023, 7, 30, 16, 52, 25, 885, DateTimeKind.Local).AddTicks(5378),
                             DataNascimento = new DateTime(1972, 12, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "testeum@teste.com",
                             Endereco = "Rua da minha casa, 001",
@@ -472,8 +474,8 @@ namespace SisControl.Server.Migrations
                             Cidade = "Guarapari",
                             Complemento = "Apto 002",
                             Cpf = "222.222.222-22",
-                            DataAtualizacao = new DateTime(2023, 7, 24, 8, 30, 58, 156, DateTimeKind.Local).AddTicks(2449),
-                            DataCadastro = new DateTime(2023, 7, 24, 8, 30, 58, 156, DateTimeKind.Local).AddTicks(2448),
+                            DataAtualizacao = new DateTime(2023, 7, 30, 16, 52, 25, 885, DateTimeKind.Local).AddTicks(5469),
+                            DataCadastro = new DateTime(2023, 7, 30, 16, 52, 25, 885, DateTimeKind.Local).AddTicks(5469),
                             DataNascimento = new DateTime(1974, 7, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "testedois@teste.com",
                             Endereco = "Rua da minha casa, 002",
@@ -489,8 +491,8 @@ namespace SisControl.Server.Migrations
                             Cidade = "Guarapari",
                             Complemento = "Apto 003",
                             Cpf = "333.333.333-33",
-                            DataAtualizacao = new DateTime(2023, 7, 24, 8, 30, 58, 156, DateTimeKind.Local).AddTicks(2469),
-                            DataCadastro = new DateTime(2023, 7, 24, 8, 30, 58, 156, DateTimeKind.Local).AddTicks(2468),
+                            DataAtualizacao = new DateTime(2023, 7, 30, 16, 52, 25, 885, DateTimeKind.Local).AddTicks(5478),
+                            DataCadastro = new DateTime(2023, 7, 30, 16, 52, 25, 885, DateTimeKind.Local).AddTicks(5478),
                             DataNascimento = new DateTime(1997, 9, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "testetres@teste.com",
                             Endereco = "Rua da minha casa, 003",
@@ -523,7 +525,7 @@ namespace SisControl.Server.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("EntidadeUsuario");
+                    b.ToTable("EntidadeUsuarios");
 
                     b.HasData(
                         new

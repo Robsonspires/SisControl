@@ -4539,11 +4539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\server\\SisControl.Server.csproj",
+      "projectUniqueName": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Server\\SisControl.Server.csproj",
       "projectName": "SisControl.Server",
-      "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\server\\SisControl.Server.csproj",
+      "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Server\\SisControl.Server.csproj",
       "packagesPath": "C:\\Users\\robso\\.nuget\\packages\\",
-      "outputPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\server\\obj\\",
+      "outputPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\robso\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -35,17 +35,39 @@
             <th>Comunidade</th>
             <th>Ano</th>
             <th>Janeiro</th>
+            <th>Fevereiro</th>
+            <th>Março</th>
+            <th>Abril</th>
+            <th>Maio</th>
+            <th>Junho</th>
+            <th>Junho</th>
+            <th>Agosto</th>
+            <th>Setembro</th>
+            <th>Outubro</th>
+            <th>Novembro</th>
+            <th>Dezembro</th>
             <th>Ações</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var tlancamentos in ServicoLancamentos.ListaLancamentos)
+        @foreach (var tlancamentos in ServicoLancamentos.LancamentoDtos)
         {
             <tr>
-                <td>@tlancamentos.PessoaId</td>
-                <td>@tlancamentos.ComunidadeId </td>
+                <td>@tlancamentos.Pessoa</td>
+                <td>@tlancamentos.Comunidade</td>
                 <td>@tlancamentos.Ano</td>
-                <td>@tlancamentos.Jan</td>
+                @if (tlancamentos.Jan) {<td> X</td >} else {<td> </td>}
+                @if (tlancamentos.Fev) {<td> X</td >} else {<td> </td>}
+                @if (tlancamentos.Mar) {<td> X</td >} else {<td> </td>}
+                @if (tlancamentos.Abr) {<td> X</td >} else {<td> </td>}
+                @if (tlancamentos.Mai) {<td> X</td >} else {<td> </td>}
+                @if (tlancamentos.Jun) {<td> X</td >} else {<td> </td>}
+                @if (tlancamentos.Jul) {<td> X</td >} else {<td> </td>}
+                @if (tlancamentos.Ago) {<td> X</td >} else {<td> </td>}
+                @if (tlancamentos.Set) {<td> X</td >} else {<td> </td>}
+                @if (tlancamentos.Out) {<td> X</td >} else {<td> </td>}
+                @if (tlancamentos.Nov) {<td> X</td >} else {<td> </td>}
+                @if (tlancamentos.Dez) {<td> X</td >} else {<td> </td>}
                 <td>
                     @*<button class="btn btn-primary" title="Editar" @onclick="(() => MostrarLancamento(tlancamentos.Id))">
                 <i class="oi oi-pencil"></i>
@@ -66,6 +88,7 @@
     {
         await ServicoLancamentos.BuscarTodosLancamentos();
     }
+
     //void MostrarLancamento(int id)
     //{
     // NavigationManager.NavigateTo($"/CadastrarPessoa/{id}");
@@ -75,4 +98,5 @@
     //{
     // NavigationManager.NavigateTo($"/CadastrarPessoa/{id}/{action}");
     //}
+    
 }
