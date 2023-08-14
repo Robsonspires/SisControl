@@ -1832,11 +1832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
+      "projectUniqueName": "C:\\Usr\\OfirDev\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
       "projectName": "SisControl.Client",
-      "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
+      "projectPath": "C:\\Usr\\OfirDev\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
       "packagesPath": "C:\\Users\\robso\\.nuget\\packages\\",
-      "outputPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\obj\\",
+      "outputPath": "C:\\Usr\\OfirDev\\SisControl\\SisControl\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\robso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1853,8 +1853,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
-              "projectPath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj"
+            "C:\\Usr\\OfirDev\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj": {
+              "projectPath": "C:\\Usr\\OfirDev\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj"
             }
           }
         }
@@ -1893,7 +1893,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[7.0.9, 7.0.9]"
+            "version": "[7.0.10, 7.0.10]"
           }
         ],
         "frameworkReferences": {
@@ -1901,7 +1901,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

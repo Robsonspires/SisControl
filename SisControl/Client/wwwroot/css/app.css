@@ -103,6 +103,43 @@ a, .btn-link {
         content: var(--blazor-load-percentage-text, "Abrindo");
     }
 
+/*--- Borda em relevo ---*/
+.BordaRelevo {
+    max-width: 40rem;
+    padding: 34px;
+    box-shadow: 5px 10px 18px #001432;
+    border-radius: 9px;
+    /*background-color: gainsboro;*/
+    background-color: #d7d7d7;
+}
+
+#meuForm {
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    color: #001432;
+}
+
+
+
+/*---- CSS das tabelas com grid ----*/
+.table-striped > thead {
+    font-size: 16px;
+    color: #001432;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 22px;
+    border-inline-color: #001432;
+    border-block-color: #001432;
+}
+
+.table-striped > tbody {
+    color: #001432;
+    border-inline-color: #001432;
+    border-block-color: #001432;
+    font-size: 16px;
+}
+
 
 /*---- CSS  do submenu lateral ----*/
 .expand {

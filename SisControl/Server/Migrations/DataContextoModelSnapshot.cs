@@ -22,6 +22,108 @@ namespace SisControl.Server.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("SisControl.Client.Services.Dtos.LancamentoParaFiltrarDto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Ano")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Comunidade")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ComunidadeId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("LancamentoParaFiltrarDtoId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Pessoa")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PessoaId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("LancamentoParaFiltrarDtoId");
+
+                    b.ToTable("LancamentoParaFiltrarDtos");
+                });
+
+            modelBuilder.Entity("SisControl.Client.Services.Dtos.LancamentosConsultaDto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Ano")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Comunidade")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ComunidadeId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("LancamentosConsultaDtoId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("MAbr")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("MAgo")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("MDez")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("MFev")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("MJan")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("MJul")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("MJun")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("MMai")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("MMar")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("MNov")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("MOut")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("MSet")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Pessoa")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PessoaId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("LancamentosConsultaDtoId");
+
+                    b.ToTable("LancamentoDtos");
+                });
+
             modelBuilder.Entity("SisControl.Shared.Models.EntidadeComunidade", b =>
                 {
                     b.Property<int>("Id")
@@ -238,12 +340,6 @@ namespace SisControl.Server.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<bool>("Abr")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("Ago")
-                        .HasColumnType("bit");
-
                     b.Property<int>("Ano")
                         .HasColumnType("int");
 
@@ -251,39 +347,45 @@ namespace SisControl.Server.Migrations
                         .IsRequired()
                         .HasColumnType("int");
 
-                    b.Property<bool>("Dez")
+                    b.Property<bool>("MAbr")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("Fev")
+                    b.Property<bool>("MAgo")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("Jan")
+                    b.Property<bool>("MDez")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("Jul")
+                    b.Property<bool>("MFev")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("Jun")
+                    b.Property<bool>("MJan")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("Mai")
+                    b.Property<bool>("MJul")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("Mar")
+                    b.Property<bool>("MJun")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("Nov")
+                    b.Property<bool>("MMai")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("Out")
+                    b.Property<bool>("MMar")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("MNov")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("MOut")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("MSet")
                         .HasColumnType("bit");
 
                     b.Property<int?>("PessoaId")
                         .IsRequired()
                         .HasColumnType("int");
-
-                    b.Property<bool>("Set")
-                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 
@@ -293,97 +395,382 @@ namespace SisControl.Server.Migrations
                         new
                         {
                             Id = 1,
-                            Abr = true,
-                            Ago = false,
                             Ano = 2023,
                             ComunidadeId = 1,
-                            Dez = false,
-                            Fev = true,
-                            Jan = true,
-                            Jul = false,
-                            Jun = false,
-                            Mai = true,
-                            Mar = true,
-                            Nov = false,
-                            Out = false,
-                            PessoaId = 1,
-                            Set = false
+                            MAbr = false,
+                            MAgo = false,
+                            MDez = true,
+                            MFev = true,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = false,
+                            MOut = false,
+                            MSet = true,
+                            PessoaId = 1
                         },
                         new
                         {
                             Id = 2,
-                            Abr = true,
-                            Ago = false,
                             Ano = 2023,
                             ComunidadeId = 3,
-                            Dez = false,
-                            Fev = true,
-                            Jan = true,
-                            Jul = false,
-                            Jun = false,
-                            Mai = true,
-                            Mar = true,
-                            Nov = false,
-                            Out = false,
-                            PessoaId = 2,
-                            Set = false
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = true,
+                            MJan = false,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = true,
+                            MOut = false,
+                            MSet = true,
+                            PessoaId = 2
                         },
                         new
                         {
                             Id = 3,
-                            Abr = true,
-                            Ago = false,
                             Ano = 2023,
                             ComunidadeId = 8,
-                            Dez = false,
-                            Fev = true,
-                            Jan = true,
-                            Jul = false,
-                            Jun = false,
-                            Mai = true,
-                            Mar = true,
-                            Nov = false,
-                            Out = false,
-                            PessoaId = 3,
-                            Set = false
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = false,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = true,
+                            MOut = true,
+                            MSet = true,
+                            PessoaId = 3
                         },
                         new
                         {
                             Id = 4,
-                            Abr = true,
-                            Ago = false,
                             Ano = 2023,
                             ComunidadeId = 1,
-                            Dez = false,
-                            Fev = true,
-                            Jan = true,
-                            Jul = false,
-                            Jun = false,
-                            Mai = true,
-                            Mar = true,
-                            Nov = false,
-                            Out = false,
-                            PessoaId = 2,
-                            Set = false
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = true,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = false,
+                            MNov = false,
+                            MOut = false,
+                            MSet = true,
+                            PessoaId = 2
                         },
                         new
                         {
                             Id = 5,
-                            Abr = true,
-                            Ago = false,
                             Ano = 2023,
                             ComunidadeId = 9,
-                            Dez = false,
-                            Fev = true,
-                            Jan = true,
-                            Jul = false,
-                            Jun = false,
-                            Mai = true,
-                            Mar = true,
-                            Nov = false,
-                            Out = false,
-                            PessoaId = 1,
-                            Set = false
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = true,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = false,
+                            MOut = false,
+                            MSet = false,
+                            PessoaId = 1
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Ano = 2022,
+                            ComunidadeId = 1,
+                            MAbr = false,
+                            MAgo = false,
+                            MDez = true,
+                            MFev = true,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = false,
+                            MOut = false,
+                            MSet = true,
+                            PessoaId = 1
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Ano = 2021,
+                            ComunidadeId = 3,
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = true,
+                            MJan = false,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = true,
+                            MOut = false,
+                            MSet = true,
+                            PessoaId = 2
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Ano = 2021,
+                            ComunidadeId = 8,
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = false,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = true,
+                            MOut = true,
+                            MSet = true,
+                            PessoaId = 3
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Ano = 2022,
+                            ComunidadeId = 1,
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = true,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = false,
+                            MNov = false,
+                            MOut = false,
+                            MSet = true,
+                            PessoaId = 2
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Ano = 2022,
+                            ComunidadeId = 6,
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = true,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = false,
+                            MOut = false,
+                            MSet = false,
+                            PessoaId = 1
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Ano = 2023,
+                            ComunidadeId = 1,
+                            MAbr = false,
+                            MAgo = false,
+                            MDez = true,
+                            MFev = true,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = false,
+                            MOut = false,
+                            MSet = true,
+                            PessoaId = 1
+                        },
+                        new
+                        {
+                            Id = 12,
+                            Ano = 2023,
+                            ComunidadeId = 3,
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = true,
+                            MJan = false,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = true,
+                            MOut = false,
+                            MSet = true,
+                            PessoaId = 2
+                        },
+                        new
+                        {
+                            Id = 13,
+                            Ano = 2023,
+                            ComunidadeId = 8,
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = false,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = true,
+                            MOut = true,
+                            MSet = true,
+                            PessoaId = 3
+                        },
+                        new
+                        {
+                            Id = 14,
+                            Ano = 2023,
+                            ComunidadeId = 1,
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = true,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = false,
+                            MNov = false,
+                            MOut = false,
+                            MSet = true,
+                            PessoaId = 2
+                        },
+                        new
+                        {
+                            Id = 15,
+                            Ano = 2023,
+                            ComunidadeId = 9,
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = true,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = false,
+                            MOut = false,
+                            MSet = false,
+                            PessoaId = 1
+                        },
+                        new
+                        {
+                            Id = 16,
+                            Ano = 2022,
+                            ComunidadeId = 1,
+                            MAbr = false,
+                            MAgo = false,
+                            MDez = true,
+                            MFev = true,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = false,
+                            MOut = false,
+                            MSet = true,
+                            PessoaId = 1
+                        },
+                        new
+                        {
+                            Id = 17,
+                            Ano = 2021,
+                            ComunidadeId = 3,
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = true,
+                            MJan = false,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = true,
+                            MOut = false,
+                            MSet = true,
+                            PessoaId = 2
+                        },
+                        new
+                        {
+                            Id = 18,
+                            Ano = 2021,
+                            ComunidadeId = 8,
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = false,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = true,
+                            MOut = true,
+                            MSet = true,
+                            PessoaId = 3
+                        },
+                        new
+                        {
+                            Id = 19,
+                            Ano = 2022,
+                            ComunidadeId = 1,
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = true,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = false,
+                            MNov = false,
+                            MOut = false,
+                            MSet = true,
+                            PessoaId = 2
+                        },
+                        new
+                        {
+                            Id = 20,
+                            Ano = 2022,
+                            ComunidadeId = 6,
+                            MAbr = true,
+                            MAgo = false,
+                            MDez = false,
+                            MFev = true,
+                            MJan = true,
+                            MJul = false,
+                            MJun = false,
+                            MMai = true,
+                            MMar = true,
+                            MNov = false,
+                            MOut = false,
+                            MSet = false,
+                            PessoaId = 1
                         });
                 });
 
@@ -457,8 +844,8 @@ namespace SisControl.Server.Migrations
                             Cidade = "Guarapari",
                             Complemento = "Apto 001",
                             Cpf = "111.111.111-11",
-                            DataAtualizacao = new DateTime(2023, 7, 30, 16, 52, 25, 885, DateTimeKind.Local).AddTicks(5389),
-                            DataCadastro = new DateTime(2023, 7, 30, 16, 52, 25, 885, DateTimeKind.Local).AddTicks(5378),
+                            DataAtualizacao = new DateTime(2023, 8, 7, 22, 19, 6, 394, DateTimeKind.Local).AddTicks(7495),
+                            DataCadastro = new DateTime(2023, 8, 7, 22, 19, 6, 394, DateTimeKind.Local).AddTicks(7485),
                             DataNascimento = new DateTime(1972, 12, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "testeum@teste.com",
                             Endereco = "Rua da minha casa, 001",
@@ -474,8 +861,8 @@ namespace SisControl.Server.Migrations
                             Cidade = "Guarapari",
                             Complemento = "Apto 002",
                             Cpf = "222.222.222-22",
-                            DataAtualizacao = new DateTime(2023, 7, 30, 16, 52, 25, 885, DateTimeKind.Local).AddTicks(5469),
-                            DataCadastro = new DateTime(2023, 7, 30, 16, 52, 25, 885, DateTimeKind.Local).AddTicks(5469),
+                            DataAtualizacao = new DateTime(2023, 8, 7, 22, 19, 6, 394, DateTimeKind.Local).AddTicks(7580),
+                            DataCadastro = new DateTime(2023, 8, 7, 22, 19, 6, 394, DateTimeKind.Local).AddTicks(7580),
                             DataNascimento = new DateTime(1974, 7, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "testedois@teste.com",
                             Endereco = "Rua da minha casa, 002",
@@ -487,17 +874,85 @@ namespace SisControl.Server.Migrations
                         {
                             Id = 3,
                             Bairro = "Este Aqui",
+                            CEP = "29.200-002",
+                            Cidade = "Guarapari",
+                            Complemento = "Apto 002",
+                            Cpf = "222.222.222-22",
+                            DataAtualizacao = new DateTime(2023, 8, 7, 22, 19, 6, 394, DateTimeKind.Local).AddTicks(7591),
+                            DataCadastro = new DateTime(2023, 8, 7, 22, 19, 6, 394, DateTimeKind.Local).AddTicks(7591),
+                            DataNascimento = new DateTime(1974, 7, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testedois@teste.com",
+                            Endereco = "Rua da minha casa, 002",
+                            Fone = "(27) 99999-2345",
+                            Nome = "Terceira Pessoa Cadastrada",
+                            UF = "ES"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Bairro = "Este Aqui",
+                            CEP = "29.200-002",
+                            Cidade = "Guarapari",
+                            Complemento = "Apto 002",
+                            Cpf = "222.222.222-22",
+                            DataAtualizacao = new DateTime(2023, 8, 7, 22, 19, 6, 394, DateTimeKind.Local).AddTicks(7596),
+                            DataCadastro = new DateTime(2023, 8, 7, 22, 19, 6, 394, DateTimeKind.Local).AddTicks(7596),
+                            DataNascimento = new DateTime(1974, 7, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testedois@teste.com",
+                            Endereco = "Rua da minha casa, 002",
+                            Fone = "(27) 99999-2345",
+                            Nome = "Quarta Pessoa Cadastrada",
+                            UF = "ES"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Bairro = "Este Aqui",
+                            CEP = "29.200-002",
+                            Cidade = "Guarapari",
+                            Complemento = "Apto 002",
+                            Cpf = "222.222.222-22",
+                            DataAtualizacao = new DateTime(2023, 8, 7, 22, 19, 6, 394, DateTimeKind.Local).AddTicks(7602),
+                            DataCadastro = new DateTime(2023, 8, 7, 22, 19, 6, 394, DateTimeKind.Local).AddTicks(7601),
+                            DataNascimento = new DateTime(1974, 7, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testedois@teste.com",
+                            Endereco = "Rua da minha casa, 002",
+                            Fone = "(27) 99999-2345",
+                            Nome = "Quinta Pessoa Cadastrada",
+                            UF = "ES"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Bairro = "Este Aqui",
+                            CEP = "29.200-002",
+                            Cidade = "Guarapari",
+                            Complemento = "Apto 002",
+                            Cpf = "222.222.222-22",
+                            DataAtualizacao = new DateTime(2023, 8, 7, 22, 19, 6, 394, DateTimeKind.Local).AddTicks(7607),
+                            DataCadastro = new DateTime(2023, 8, 7, 22, 19, 6, 394, DateTimeKind.Local).AddTicks(7606),
+                            DataNascimento = new DateTime(1974, 7, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "testedois@teste.com",
+                            Endereco = "Rua da minha casa, 002",
+                            Fone = "(27) 99999-2345",
+                            Nome = "Sexta Pessoa Cadastrada",
+                            UF = "ES"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Bairro = "Este Aqui",
                             CEP = "29.200-003",
                             Cidade = "Guarapari",
                             Complemento = "Apto 003",
                             Cpf = "333.333.333-33",
-                            DataAtualizacao = new DateTime(2023, 7, 30, 16, 52, 25, 885, DateTimeKind.Local).AddTicks(5478),
-                            DataCadastro = new DateTime(2023, 7, 30, 16, 52, 25, 885, DateTimeKind.Local).AddTicks(5478),
+                            DataAtualizacao = new DateTime(2023, 8, 7, 22, 19, 6, 394, DateTimeKind.Local).AddTicks(7612),
+                            DataCadastro = new DateTime(2023, 8, 7, 22, 19, 6, 394, DateTimeKind.Local).AddTicks(7612),
                             DataNascimento = new DateTime(1997, 9, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "testetres@teste.com",
                             Endereco = "Rua da minha casa, 003",
                             Fone = "(27) 99999-3456",
-                            Nome = "Terceira Pessoa Cadastrada",
+                            Nome = "Setima Pessoa Cadastrada",
                             UF = "ES"
                         });
                 });
@@ -568,6 +1023,30 @@ namespace SisControl.Server.Migrations
                             PessoaId = 3,
                             Senha = "sem"
                         });
+                });
+
+            modelBuilder.Entity("SisControl.Client.Services.Dtos.LancamentoParaFiltrarDto", b =>
+                {
+                    b.HasOne("SisControl.Client.Services.Dtos.LancamentoParaFiltrarDto", null)
+                        .WithMany("LancamentoParaFiltrarDtos")
+                        .HasForeignKey("LancamentoParaFiltrarDtoId");
+                });
+
+            modelBuilder.Entity("SisControl.Client.Services.Dtos.LancamentosConsultaDto", b =>
+                {
+                    b.HasOne("SisControl.Client.Services.Dtos.LancamentosConsultaDto", null)
+                        .WithMany("LancamentoDtos")
+                        .HasForeignKey("LancamentosConsultaDtoId");
+                });
+
+            modelBuilder.Entity("SisControl.Client.Services.Dtos.LancamentoParaFiltrarDto", b =>
+                {
+                    b.Navigation("LancamentoParaFiltrarDtos");
+                });
+
+            modelBuilder.Entity("SisControl.Client.Services.Dtos.LancamentosConsultaDto", b =>
+                {
+                    b.Navigation("LancamentoDtos");
                 });
 #pragma warning restore 612, 618
         }

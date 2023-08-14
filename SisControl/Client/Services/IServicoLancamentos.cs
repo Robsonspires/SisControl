@@ -5,9 +5,15 @@ namespace SisControl.Client.Services
 {
     public interface IServicoLancamentos
     {
-        List<LancamentoDto> LancamentoDtos { get; set; }
+        List<LancamentosConsultaDto> LancamentoDtos { get; set; }
+
+        List<LancamentoParaFiltrarDto> LancamentoParaFiltrarDtos { get; set; }
 
         Task BuscarTodosLancamentos();
+
+        Task BuscarParaFiltroLancamentos();
+
+        Task BuscaLancamentosFiltro(int iAno);
 
     }
 }

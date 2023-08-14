@@ -15,18 +15,18 @@ namespace SisControl.Shared.Models
         [Required]
         public int Ano { get; set; }
 
-        public bool Jan { get; set; } = false;
-        public bool Fev { get; set; } = false;
-        public bool Mar { get; set; } = false;
-        public bool Abr { get; set; } = false;
-        public bool Mai { get; set; } = false;
-        public bool Jun { get; set; } = false;
-        public bool Jul { get; set; } = false;
-        public bool Ago { get; set; } = false;
-        public bool Set { get; set; } = false;
-        public bool Out { get; set; } = false;
-        public bool Nov { get; set; } = false;
-        public bool Dez { get; set; } = false;
+        public bool MJan { get; set; } = false;
+        public bool MFev { get; set; } = false;
+        public bool MMar { get; set; } = false;
+        public bool MAbr { get; set; } = false;
+        public bool MMai { get; set; } = false;
+        public bool MJun { get; set; } = false;
+        public bool MJul { get; set; } = false;
+        public bool MAgo { get; set; } = false;
+        public bool MSet { get; set; } = false;
+        public bool MOut { get; set; } = false;
+        public bool MNov { get; set; } = false;
+        public bool MDez { get; set; } = false;
 
 
     }

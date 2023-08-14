@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wAOVb1OuC44W1mk4+xo8MyXzqUzqojoPMsIQmKVoyz6/8kMuSHq6dHOOQYUzPQmvsaZFGsCrmWji7bBN6ddw1A==",
+  "dgSpecHash": "FnalfBXqMOKb4CCN8AFyp9tITw50SIoxg5gVOHSZA5lLoqLGYuEGy9rQtnBXtcxoDaAcno05LUJSD97qoaqHKw==",
   "success": true,
-  "projectFilePath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
+  "projectFilePath": "C:\\Usr\\OfirDev\\SisControl\\SisControl\\Client\\SisControl.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\robso\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.7\\microsoft.aspnetcore.authorization.7.0.7.nupkg.sha512",
     "C:\\Users\\robso\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.7\\microsoft.aspnetcore.components.7.0.7.nupkg.sha512",
@@ -31,7 +31,7 @@
     "C:\\Users\\robso\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\robso\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\robso\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\robso\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.9\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.9.nupkg.sha512"
+    "C:\\Users\\robso\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.10\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.10.nupkg.sha512"
   ],
   "logs": []
 }

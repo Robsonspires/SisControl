@@ -1,0 +1,136 @@
+﻿@page "/consultarlancamentosfiltro"
+
+@using SisControl.Client.Services;
+@using SisControl.Shared.Models;
+@using SisControl.Client.Services.Dtos;
+@inject IServicoLancamentos ServicoLancamentos
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JsRuntime
+
+<PageTitle> Lançamentos com filtro </PageTitle>
+<h3>Consultando Lançamentos com Filtro</h3>
+
+<style>
+    .table-striped > thead {
+        font-size: 16px;
+        color: #001432;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 22px;
+        border-inline-color: #001432;
+        border-block-color: #001432;
+    }
+
+    .table-striped > tbody {
+        color: #001432;
+        border-inline-color: #001432;
+        border-block-color: #001432;
+        font-size: 16px;
+    }
+
+    .BordaRelevo {
+        max-width: 40rem;
+        padding: 34px;
+        box-shadow: 5px 10px 18px #001432;
+        border-radius: 9px;
+        /*background-color: gainsboro;*/
+        background-color: #d7d7d7;
+    }
+
+    #meuForm {
+        font-size: 1rem;
+        margin-bottom: 0;
+        margin-top: 1rem;
+        color: #001432;
+    }
+
+</style>
+
+@*------------------------------------------------------*@
+<EditForm Model="@_paraFiltrarDto" OnValidSubmit="FiltrarAno">
+    <div class="card mb-0 mt-1" style="border-color:black; border-style:double; padding:10px;">
+        @* <div class="card-header text-center mb-2" style="font-size:1.5rem">
+            Filtrar pelo ano
+        </div>
+        <div id="meuForm" class="card-body">
+            <DataAnnotationsValidator /> *@
+            <div class="row">
+                <div class="col-2">
+                    <label>Ano</label>
+                    <InputSelect @bind-Value="_paraFiltrarDto.Ano" id="selecaoAno">
+                        @foreach (var filtrarAno in ServicoLancamentos.LancamentoParaFiltrarDtos.
+                                                    DistinctBy(x => x.Ano))
+                        {
+                            <option>@filtrarAno.Ano</option>
+                        }
+                    </InputSelect>
+                </div>
+                <div class="col-2">
+                    <button class="btn btn-info" title="Selecionar" @onclick=@(() => FiltrarAno())>
+                        <i class="oi oi-book"> Filtrando</i>
+                    </button>
+                </div>
+            </div>
+        @*         </div>*@
+    </div> 
+</EditForm>
+
+<br />
+@*------------------------------------------------------*@
+<table class="table table-striped table-hover table-bordered">
+    <thead>
+        <tr>
+            <th>Pessoa</th>
+            <th>Comunidade</th>
+            <th>Ano</th>
+
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tlancamentos in ServicoLancamentos.LancamentoDtos)
+        {
+            <tr>
+                <td> @tlancamentos.Pessoa </td>
+                <td> @tlancamentos.Comunidade </td>
+                <td> @tlancamentos.Ano </td>
+                <td>
+                    @*<button class="btn btn-primary" title="Editar" @onclick="(() => MostrarLancamento(tlancamentos.Id))">
+                <i class="oi oi-pencil"></i>
+                </button>
+                <button class="btn btn-danger" title="Deletar" @onclick="(() =>
+                MostrarLancamentoADeletar(tlancamentos.Id,3))">
+                <i class="oi oi-trash"></i>
+                </button>*@
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+@code {
+    private List<LancamentoParaFiltrarDto> _lancamentoParaFiltrarDto = new List<LancamentoParaFiltrarDto>();
+    private LancamentoParaFiltrarDto _paraFiltrarDto = new LancamentoParaFiltrarDto();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ServicoLancamentos.BuscarParaFiltroLancamentos();
+        await ServicoLancamentos.BuscaLancamentosFiltro(_paraFiltrarDto.Ano);
+    }
+
+    private async Task FiltrarAno()
+    {
+        await ServicoLancamentos.BuscaLancamentosFiltro(_paraFiltrarDto.Ano);
+    }
+
+    //void MostrarLancamento(int id)
+    //{
+    // NavigationManager.NavigateTo($"/CadastrarPessoa/{id}");
+    //}
+
+    //void MostrarLancamentoADeletar(int id, int action)
+    //{
+    // NavigationManager.NavigateTo($"/CadastrarPessoa/{id}/{action}");
+    //}
+}

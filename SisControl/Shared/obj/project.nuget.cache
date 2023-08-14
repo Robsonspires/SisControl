@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y0paJRq85ZT4MND3HrFeCTf1UMvFpjWhqx1Wl7mGipVWMXPBUsImgybZSLiILv7IbumJ2h+Mz5cuMa2P5k6vjA==",
+  "dgSpecHash": "V82CagYYaYM4DGfZsK3k6wr5SloGf2HvL+GBBzH2PG2omInqt/XkJQQmn+I1IIIUnPxvocZQlO9PTOvQolZj5w==",
   "success": true,
-  "projectFilePath": "D:\\Usr\\Projetos Blazor\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
+  "projectFilePath": "C:\\Usr\\OfirDev\\SisControl\\SisControl\\Shared\\SisControl.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
