@@ -43,36 +43,39 @@
         margin-top: 1rem;
         color: #001432;
     }
-
 </style>
 
 @*------------------------------------------------------*@
 <EditForm Model="@_paraFiltrarDto" OnValidSubmit="FiltrarAno">
     <div class="card mb-0 mt-1" style="border-color:black; border-style:double; padding:10px;">
-        @* <div class="card-header text-center mb-2" style="font-size:1.5rem">
-            Filtrar pelo ano
-        </div>
-        <div id="meuForm" class="card-body">
-            <DataAnnotationsValidator /> *@
-            <div class="row">
-                <div class="col-2">
-                    <label>Ano</label>
-                    <InputSelect @bind-Value="_paraFiltrarDto.Ano" id="selecaoAno">
-                        @foreach (var filtrarAno in ServicoLancamentos.LancamentoParaFiltrarDtos.
-                                                    DistinctBy(x => x.Ano))
-                        {
-                            <option>@filtrarAno.Ano</option>
-                        }
-                    </InputSelect>
-                </div>
-                <div class="col-2">
-                    <button class="btn btn-info" title="Selecionar" @onclick=@(() => FiltrarAno())>
-                        <i class="oi oi-book"> Filtrando</i>
-                    </button>
-                </div>
+        <div class="row">
+            <div class="col-4">
+                <label>Comunidade</label>
+                <InputSelect @bind-Value="_paraFiltrarDto.ComunidadeId" id="selecaoComunidade">
+                    @foreach (var filtrarCom in ServicoLancamentos.LancamentoParaFiltrarDtos.
+                    DistinctBy(x => x.ComunidadeId))
+                    {
+                        <option>@filtrarCom.ComunidadeId</option>
+                    }
+                </InputSelect>
             </div>
-        @*         </div>*@
-    </div> 
+            <div class="col-2">
+                <label>Ano</label>
+                <InputSelect @bind-Value="_paraFiltrarDto.Ano" id="selecaoAno">
+                    @foreach (var filtrarAno in ServicoLancamentos.LancamentoParaFiltrarDtos.
+                    DistinctBy(x => x.Ano))
+                    {
+                        <option>@filtrarAno.Ano</option>
+                    }
+                </InputSelect>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary" title="Selecionar" @onclick=@(() => FiltrarAno())>
+                    <i class="oi oi-book"> Filtrar</i>
+                </button>
+            </div>
+        </div>
+    </div>
 </EditForm>
 
 <br />
@@ -116,12 +119,15 @@
     protected override async Task OnInitializedAsync()
     {
         await ServicoLancamentos.BuscarParaFiltroLancamentos();
-        await ServicoLancamentos.BuscaLancamentosFiltro(_paraFiltrarDto.Ano);
+        _paraFiltrarDto = new LancamentoParaFiltrarDto();  // Atualiza a table
+        await ServicoLancamentos.BuscaLancamentosFiltro(_paraFiltrarDto.Ano, _paraFiltrarDto.ComunidadeId);
     }
 
     private async Task FiltrarAno()
     {
-        await ServicoLancamentos.BuscaLancamentosFiltro(_paraFiltrarDto.Ano);
+        if (_paraFiltrarDto.Ano > 0 && _paraFiltrarDto.ComunidadeId > 0)
+            await ServicoLancamentos.BuscaLancamentosFiltro(_paraFiltrarDto.Ano, _paraFiltrarDto.ComunidadeId);
+
     }
 
     //void MostrarLancamento(int id)

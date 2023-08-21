@@ -70,14 +70,14 @@ namespace SisControl.Server.Controllers
         }
 
 
-        [HttpGet("{iAno}")]
-        public ActionResult<List<LancamentosConsultaDto>> BuscaLancamentosFiltro(int iAno)
+        [HttpGet("{iAno}/{iComunidadeId}")]
+        public ActionResult<List<LancamentosConsultaDto>> BuscaLancamentosFiltro(int iAno, int iComunidadeId)
         {
             // fazer a busca em três tabelas e criando uma.
             var lancamentos = from el in _contexto.EntidadeLancamentos
                               join ec in _contexto.EntidadeComunidades on el.ComunidadeId equals ec.Id
                               join ep in _contexto.EntidadePessoas on el.PessoaId equals ep.Id
-                              where el.Ano == iAno/* && el.ComunidadeId == iCom*/
+                              where el.Ano == iAno && el.ComunidadeId == iComunidadeId
                               select new
                               {
                                   el.Id,

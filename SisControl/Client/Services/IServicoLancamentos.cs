@@ -13,7 +13,7 @@ namespace SisControl.Client.Services
 
         Task BuscarParaFiltroLancamentos();
 
-        Task BuscaLancamentosFiltro(int iAno);
+        Task BuscaLancamentosFiltro(int iAno, int iComunidadeId);
 
     }
 }

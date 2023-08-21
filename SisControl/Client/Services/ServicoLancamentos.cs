@@ -34,10 +34,9 @@ namespace SisControl.Client.Services.ServicoLancamentos
                 LancamentoParaFiltrarDtos = result;
         }
 
-        public async Task BuscaLancamentosFiltro(int iAno)
+        public async Task BuscaLancamentosFiltro(int iAno, int iComunidadeId)
         {
-            var result = await _http.GetFromJsonAsync<List<LancamentosConsultaDto>>($"api/lancamentos/{iAno}");
-            //var result = await _http.GetFromJsonAsync<List<LancamentoDto>>("api/lancamentos/{iAno}/{iCom}");
+            var result = await _http.GetFromJsonAsync<List<LancamentosConsultaDto>>($"api/lancamentos/{iAno}/{iComunidadeId}");
             if (result != null)
                 LancamentoDtos = result;
         }
